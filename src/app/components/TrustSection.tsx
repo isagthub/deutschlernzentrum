@@ -60,7 +60,7 @@ export default function TrustSection() {
                 <span className="text-accent">Echter Fortschritt.</span>
               </h2>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-lg">
-                Unser Team besteht ausschließlich aus deutsch-muttersprachlichen Lehrkräften, die alle als Sprachlehrer:innen zertifiziert sind und Erfahrung mit Erwachsenen haben.
+                Unser Team besteht ausschließlich aus deutsch-muttersprachlichen Lehrkräften, die alle als Sprachlehrer:innen zertifiziert sind und Erfahrung in der Jugend- und Erwachsenenlehre haben.
               </p>
             </div>
 
