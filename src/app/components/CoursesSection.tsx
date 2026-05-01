@@ -72,6 +72,7 @@ export default function CoursesSection() {
               <h3 className="text-2xl font-extrabold text-primary mb-2">Sprachkurse A2–C1</h3>
               <p className="text-muted-foreground mb-5 leading-relaxed">
                 Strukturierter Sprachunterricht nach dem Gemeinsamen Europäischen Referenzrahmen. Lerne Grammatik, Wortschatz und Aussprache auf Deutsch, von Anfang an.
+                Eine Niveaustufe umfasst erfahrungsgemäß ca. 80 Unterrichtseinheiten (je 45 Min).
               </p>
 
               {/* Level badges */}
