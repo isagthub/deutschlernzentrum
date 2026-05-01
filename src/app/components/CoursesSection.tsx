@@ -132,7 +132,7 @@ export default function CoursesSection() {
             <div className="p-7 flex flex-col flex-1">
               <h3 className="text-2xl font-extrabold text-white mb-2">Konversation & Leben in DE</h3>
               <p className="text-white/70 mb-5 leading-relaxed">
-                Sprich von Anfang an. Lerne echtes Alltagsdeutsch und verstehe, wie Deutschland wirklich funktioniert: Kultur, Bürokratie, Gesellschaft.
+                Sprich von Anfang an. Lerne echtes Alltagsdeutsch und verstehe, wie das Leben in Deutschland wirklich aussieht: Kultur, Bürokratie, Gesellschaft.
               </p>
 
               <div className="flex items-center gap-2 mb-6">

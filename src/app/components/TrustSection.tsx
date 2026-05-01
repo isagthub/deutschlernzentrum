@@ -36,7 +36,7 @@ const trustItems = [
       </svg>,
 
   title: 'Geprüfte Qualität',
-  desc: 'Zertifizierte Lehrkräfte mit pädagogischer Ausbildung.'
+  desc: 'Zertifizierte Lehrkräfte mit Universitätsabschlüssen.'
 }];
 
 

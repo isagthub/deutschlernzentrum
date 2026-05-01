@@ -140,7 +140,7 @@ export default function ImpressumPage() {
                 {/* Back link */}
                 <div className="mt-10 pt-8 border-t border-border flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
                   <p className="text-sm text-muted-foreground">
-                    Stand: April 2026 · Deutschlernzentrum, Isabella Willeke, Herrenberg
+                    Stand: April 2026 · Deutschlernzentrum, Isabella Willeke
                   </p>
                   <a
                     href="/"

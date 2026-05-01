@@ -18,7 +18,7 @@ const differentiators = [
       </svg>,
 
   title: 'Sprache + Kultur',
-  desc: 'Du lernst nicht nur Deutsch, sondern du verstehst auch, wie Deutschland wirklich funktioniert.'
+  desc: 'Du lernst nicht nur Deutsch, sondern du verstehst auch, wie das Leben in Deutschland wirklich aussieht.'
 },
 {
   icon:
