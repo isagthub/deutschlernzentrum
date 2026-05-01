@@ -53,7 +53,7 @@ export default function Footer() {
         {/* Bottom row */}
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-sm text-muted-foreground">
-            © {year} Deutschlernzentrum · Isabella Willeke · Herrenberg
+            © {year} Deutschlernzentrum · Isabella Willeke
           </p>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <Link href="/impressum" className="hover:text-foreground transition-colors">Impressum</Link>
