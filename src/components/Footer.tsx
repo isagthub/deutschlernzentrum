@@ -18,10 +18,10 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Deutsch lernen. In Deutschland ankommen.
+              Deutsch  lernen. In  Deutschland ankommen.
             </p>
             <a
-              href="https://wa.me/4915175034355"
+              href="https://wa.me/+4915175034355"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-green-700 font-medium hover:text-green-800 transition-colors mt-1"

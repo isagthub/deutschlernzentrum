@@ -27,7 +27,7 @@ const differentiators = [
       </svg>,
 
   title: 'Von Stunde 1 auf Deutsch',
-  desc: 'Aktives Sprechen statt Theoriepauken. Alle Kurse laufen ausschließlich auf Deutsch.'
+  desc: 'Aktives Sprechen. Alle Kurse laufen ausschließlich auf Deutsch.'
 },
 {
   icon:
@@ -81,7 +81,7 @@ export default function DifferentiatorSection() {
                 <span className="text-accent">ankommen.</span>
               </h2>
               <p className="mt-4 text-lg text-white/70 leading-relaxed max-w-md">
-                Wir glauben, dass ein Deutschkurs mehr sein muss als Grammatik. Deshalb verbinden wir Sprachkompetenz mit echtem Kulturverständnis.
+                Wir glauben, dass ein Deutschkurs mehr sein kann als Grammatik. Deshalb verbinden wir Sprachkompetenz mit echtem Kulturverständnis.
               </p>
             </div>
 
