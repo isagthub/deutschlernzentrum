@@ -15,8 +15,8 @@ const pricingPlans = [
       'Du + 2 Begleitpersonen inklusive',
       'Live-Unterricht mit Lehrkraft',
       'Flexibler Termin',
-      'Offizielles Zertifikat nach Level',
-      'Alle Kursmaterialien digital',
+      'Offizielles Teilnahmezertifikat nach Levelabschluss',
+      'So viele Stunden wie du brauchst, keine Mindestanzahl'
     ],
     cta: 'Einzelkurs buchen',
     ctaHref: '/contact',
@@ -35,7 +35,7 @@ const pricingPlans = [
       'Intensiver Austausch im Team',
       'Live-Unterricht mit Lehrkraft',
       'Offizielles Zertifikat nach Level',
-      'Alle Kursmaterialien digital',
+      'ein Kurs, eine Niveaustufe'
     ],
     cta: 'Gruppenkurs anfragen',
     ctaHref: '/contact',

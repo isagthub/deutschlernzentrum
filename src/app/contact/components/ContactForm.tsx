@@ -106,7 +106,7 @@ export default function ContactForm() {
     <div className="bg-white rounded-3xl p-8 md:p-10 border border-border shadow-md reveal-up">
       <h2 className="text-2xl font-extrabold text-primary mb-2">Kursanfrage senden</h2>
       <p className="text-muted-foreground text-sm mb-8">
-        Füll das Formular aus — wir melden uns innerhalb von 24 Stunden.
+        Füll das Formular aus, schreib uns eine E-Mail oder eine WhatsApp. Wir melden uns innerhalb von 24 Stunden bei dir.
       </p>
 
       <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-5">

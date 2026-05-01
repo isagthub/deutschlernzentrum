@@ -17,8 +17,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-  title: 'Deutschlernzentrum — Online Deutsch lernen & ankommen',
-  description: 'Online-Deutschkurse mit zertifizierten Muttersprachlern. Sprache + Kultur vereint. Kurse A2–C1 und Konversation. Für Erwachsene in Deutschland.',
+  title: 'Deutschlernzentrum: Online Deutsch lernen & ankommen',
+  description: 'Online-Deutschkurse mit zertifizierten und muttersprachlichen Lehrkräften. Sprache + Kultur vereint. Kurse A2–C1 und Konversation. Für Erwachsene in Deutschland.',
   icons: {
     icon: [{ url: '/favicon.ico', type: 'image/x-icon' }],
   },

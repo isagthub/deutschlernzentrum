@@ -9,7 +9,7 @@ const trustItems = [
       </svg>,
 
   title: 'Kleine Gruppen',
-  desc: 'Maximal 5 Teilnehmende — du bekommst echte Aufmerksamkeit.'
+  desc: 'Maximal 5 Teilnehmende: Du bekommst echte Aufmerksamkeit.'
 },
 {
   icon:
@@ -18,7 +18,7 @@ const trustItems = [
       </svg>,
 
   title: '100% Online',
-  desc: 'Live-Unterricht von überall — kein Pendeln, kein Stress.'
+  desc: 'Live-Unterricht von überall: Kein Pendeln, kein Stress.'
 },
 {
   icon:
@@ -60,7 +60,7 @@ export default function TrustSection() {
                 <span className="text-accent">Echter Fortschritt.</span>
               </h2>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-lg">
-                Unser Team besteht ausschließlich aus deutsch-muttersprachlichen Lehrkräften, die alle als Sprachlehrer zertifiziert sind und Erfahrung mit Erwachsenen haben.
+                Unser Team besteht ausschließlich aus deutsch-muttersprachlichen Lehrkräften, die alle als Sprachlehrer:innen zertifiziert sind und Erfahrung mit Erwachsenen haben.
               </p>
             </div>
 

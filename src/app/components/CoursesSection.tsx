@@ -36,10 +36,10 @@ export default function CoursesSection() {
             <span className="w-8 h-px bg-accent" />
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-primary tracking-tight text-balance">
-            Zwei Kurswege — ein Ziel
+            Zwei Kurswege, ein Ziel
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ob strukturiertes Sprachtraining oder lebendiges Konversationstraining — wir haben den richtigen Kurs für dich.
+            Ob strukturiertes Sprachtraining oder lebendiges Konversationstraining, wir haben den richtigen Kurs für dich.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function CoursesSection() {
             <div className="p-7 flex flex-col flex-1">
               <h3 className="text-2xl font-extrabold text-primary mb-2">Sprachkurse A2–C1</h3>
               <p className="text-muted-foreground mb-5 leading-relaxed">
-                Strukturierter Sprachunterricht nach dem Gemeinsamen Europäischen Referenzrahmen. Lerne Grammatik, Wortschatz und Aussprache — auf Deutsch, von Anfang an.
+                Strukturierter Sprachunterricht nach dem Gemeinsamen Europäischen Referenzrahmen. Lerne Grammatik, Wortschatz und Aussprache auf Deutsch, von Anfang an.
               </p>
 
               {/* Level badges */}
@@ -132,7 +132,7 @@ export default function CoursesSection() {
             <div className="p-7 flex flex-col flex-1">
               <h3 className="text-2xl font-extrabold text-white mb-2">Konversation & Leben in DE</h3>
               <p className="text-white/70 mb-5 leading-relaxed">
-                Sprich von Anfang an. Lerne echtes Alltagsdeutsch und verstehe, wie Deutschland wirklich funktioniert — Bürokratie, Kultur, Gesellschaft.
+                Sprich von Anfang an. Lerne echtes Alltagsdeutsch und verstehe, wie Deutschland wirklich funktioniert: Kultur, Bürokratie, Gesellschaft.
               </p>
 
               <div className="flex items-center gap-2 mb-6">

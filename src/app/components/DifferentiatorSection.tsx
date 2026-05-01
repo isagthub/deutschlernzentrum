@@ -8,8 +8,8 @@ const differentiators = [
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>,
 
-  title: 'Nur Muttersprachler',
-  desc: 'Alle Lehrkräfte sind deutsch-muttersprachlich und als Sprachlehrer zertifiziert.'
+  title: 'Nur Muttersprachler und Muttersprachlerinnen',
+  desc: 'Alle Lehrkräfte sind deutsch-muttersprachlich und als Sprachlehrer:innen zertifiziert.'
 },
 {
   icon:
@@ -18,7 +18,7 @@ const differentiators = [
       </svg>,
 
   title: 'Sprache + Kultur',
-  desc: 'Du lernst nicht nur Deutsch — du verstehst auch, wie Deutschland wirklich funktioniert.'
+  desc: 'Du lernst nicht nur Deutsch, sondern du verstehst auch, wie Deutschland wirklich funktioniert.'
 },
 {
   icon:
@@ -35,8 +35,8 @@ const differentiators = [
         <circle cx="12" cy="8" r="6" /><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
       </svg>,
 
-  title: 'GER-Zertifikat',
-  desc: 'Nach jedem Level erhältst du ein offizielles Teilnahmezertifikat gemäß GER.'
+  title: 'Teilnahmezertifikat',
+  desc: 'Nach Abschluss jedes GER-Levels erhältst du ein offizielles Teilnahmezertifikat von uns als Sprachschule.'
 }];
 
 

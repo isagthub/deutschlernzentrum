@@ -87,7 +87,7 @@ export default function HeroSection() {
 
             {/* Subheadline */}
             <p className="reveal-up delay-500 text-lg md:text-xl text-muted-foreground max-w-lg leading-relaxed font-medium">
-              Live-Kurse mit zertifizierten Muttersprachlern. Sprache und Kultur — beides in einem.
+              Live-Kurse mit zertifizierten muttersprachlichen Lehrkräften. Sprache und Kultur vereint in deinem Deutschkurs.
             </p>
 
             {/* CTAs */}
@@ -120,7 +120,7 @@ export default function HeroSection() {
             <div className="reveal-up delay-700 flex flex-wrap gap-6 pt-4 border-t border-border">
               {[
               { value: 'A2–C1', label: 'GER-Niveaus' },
-              { value: '100%', label: 'Muttersprachler' },
+              { value: '100%', label: 'Muttersprachler:innen' },
               { value: 'Live', label: 'Unterricht online' }]?.
               map((stat) =>
               <div key={stat?.label} className="flex flex-col">
@@ -158,7 +158,7 @@ export default function HeroSection() {
                 <div className="flex items-center justify-between mb-3">
                   <div>
                     <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-0.5">Nächster Kursstart</p>
-                    <p className="text-sm font-bold text-foreground">immer&nbsp; monta. 09:00 Uhr</p>
+                    <p className="text-sm font-bold text-foreground">flexibler Kursstart möglich</p>
                   </div>
                   <div className="flex items-center gap-1.5 bg-green-100 text-green-700 text-xs font-bold px-2.5 py-1 rounded-full">
                     <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
