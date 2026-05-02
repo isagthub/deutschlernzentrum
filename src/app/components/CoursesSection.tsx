@@ -116,8 +116,8 @@ export default function CoursesSection() {
           <div className="reveal-right bg-primary rounded-3xl overflow-hidden border border-primary/20 shadow-lg hover:shadow-xl transition-shadow duration-500 group card-shine flex flex-col">
             <div className="relative h-56 overflow-hidden">
               <AppImage
-                src="/assets/images/Videocall.png"
-                alt="4 Erwachsene im Videocall"
+                src="/assets/images/Videocall2.png"
+                alt="Erwachsene im Videocall"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700" />
 
