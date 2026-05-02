@@ -101,8 +101,8 @@ export default function TrustSection() {
           <div className="relative reveal-right">
             <div className="relative h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl shadow-primary/15 border border-border">
               <AppImage
-                src="https://img.rocket.new/generatedImages/rocket_gen_img_18490395e-1777573896224.png"
-                alt="Zertifizierte Deutschlehrerin erklärt freundlich und professionell vor einem Laptop in einem hellen Büro"
+                src="/assets/images/Deutschlehrerin.png"
+                alt="Sprachlehrerin"
                 fill
                 className="object-cover" />
 

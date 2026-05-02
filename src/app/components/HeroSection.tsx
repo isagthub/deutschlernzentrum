@@ -140,8 +140,8 @@ export default function HeroSection() {
                 className="absolute inset-0 w-full h-[120%] -top-[10%] parallax-container">
 
                 <AppImage
-                  src="https://img.rocket.new/generatedImages/rocket_gen_img_10fe8848e-1767964319126.png"
-                  alt="Zwei Erwachsene lernen gemeinsam Deutsch am Tisch in einem hellen, modernen Raum"
+                  src="/assets/images/Videocall.png"
+                  alt="4 Erwachsene im Videocall"
                   fill
                   className="object-cover"
                   priority />

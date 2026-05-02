@@ -54,8 +54,8 @@ export default function CoursesSection() {
           <div className="reveal-left bg-white rounded-3xl overflow-hidden border border-border shadow-lg hover:shadow-xl transition-shadow duration-500 group card-shine flex flex-col">
             <div className="relative h-56 overflow-hidden">
               <AppImage
-                src="https://img.rocket.new/generatedImages/rocket_gen_img_1078a2fa2-1774438856840.png"
-                alt="Erwachsene Person lernt konzentriert Deutsch mit Lehrbuch und Laptop am Schreibtisch"
+                src="/assets/images/Frau-Laptop.png"
+                alt="Frau am Laptop"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700" />
 

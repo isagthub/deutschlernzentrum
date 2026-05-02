@@ -53,8 +53,8 @@ export default function DifferentiatorSection() {
           <div className="relative reveal-left">
             <div className="relative h-[380px] md:h-[480px] rounded-3xl overflow-hidden shadow-2xl">
               <AppImage
-                src="https://img.rocket.new/generatedImages/rocket_gen_img_16e3fe507-1768769062279.png"
-                alt="Gruppe Erwachsener lernt gemeinsam in einem modernen Online-Kurs, helles Ambiente"
+                src="/assets/images/Qualitaetskontrolle.png"
+                alt="Zertifizierte Lehrkräfte"
                 fill
                 className="object-cover" />
 
