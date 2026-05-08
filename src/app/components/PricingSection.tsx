@@ -19,7 +19,7 @@ const pricingPlans = [
       'So viele Stunden wie du brauchst, keine Mindestanzahl'
     ],
     cta: 'Einzelkurs buchen',
-    ctaHref: '/contact',
+    ctaHref: '/kontakt',
   },
   {
     id: 'group',
@@ -38,7 +38,7 @@ const pricingPlans = [
       'ein Kurs, eine Niveaustufe'
     ],
     cta: 'Gruppenkurs anfragen',
-    ctaHref: '/contact',
+    ctaHref: '/kontakt',
   },
 ];
 

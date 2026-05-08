@@ -100,7 +100,7 @@ export default function CoursesSection() {
               </ul>
 
               <Link
-                href="/contact"
+                href="/kontakt"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-primary text-white font-bold rounded-2xl hover:bg-secondary transition-all duration-300 hover:-translate-y-0.5 shadow-md shadow-primary/20 text-sm">
 
                 Sprachkurs anfragen
@@ -159,7 +159,7 @@ export default function CoursesSection() {
               </ul>
 
               <Link
-                href="/contact"
+                href="/kontakt"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-accent text-white font-bold rounded-2xl hover:bg-amber-600 transition-all duration-300 hover:-translate-y-0.5 shadow-md shadow-accent/30 text-sm">
 
                 Konversationskurs anfragen

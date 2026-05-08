@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import ContactForm from '@/app/contact/components/ContactForm';
+import ContactForm from '@/app/kontakt/components/ContactForm';
 import WhatsAppButton from '@/app/components/WhatsAppButton';
 import ScrollRevealInit from '@/app/components/ScrollRevealInit';
 

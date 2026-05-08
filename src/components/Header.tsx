@@ -7,7 +7,7 @@ import AppLogo from '@/components/ui/AppLogo';
 const navLinks = [
   { label: 'Kurse', href: '/#kurse' },
   { label: 'Preise', href: '/#preise' },
-  { label: 'Kontakt', href: '/contact' },
+  { label: 'Kontakt', href: '/kontakt' },
   { label: 'Impressum', href: '/impressum' },
 ];
 
@@ -78,7 +78,7 @@ export default function Header() {
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center gap-3">
               <Link
-                href="/contact"
+                href="/kontakt"
                 className="px-5 py-2.5 bg-primary text-white text-sm font-semibold rounded-full hover:bg-secondary transition-all duration-300 hover:scale-105 shadow-md shadow-primary/20"
               >
                 Jetzt anmelden
@@ -137,7 +137,7 @@ export default function Header() {
           </nav>
           <div className="mt-8">
             <Link
-              href="/contact"
+              href="/kontakt"
               onClick={handleNavClick}
               className="block w-full text-center px-6 py-4 bg-primary text-white text-base font-bold rounded-2xl hover:bg-secondary transition-all duration-300 shadow-lg shadow-primary/30"
             >

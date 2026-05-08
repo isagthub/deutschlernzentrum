@@ -93,7 +93,7 @@ export default function HeroSection() {
             {/* CTAs */}
             <div className="reveal-up delay-600 flex flex-wrap gap-4 items-center">
               <Link
-                href="/contact"
+                href="/kontakt"
                 className="group inline-flex items-center gap-3 px-6 py-3.5 bg-primary text-white font-semibold rounded-full hover:bg-secondary transition-all duration-300 hover:-translate-y-1 shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40">
 
                 <span>Kurs buchen</span>

@@ -27,7 +27,7 @@ export default function CtaSection() {
 
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
               <Link
-                href="/contact"
+                href="/kontakt"
                 className="w-full sm:w-auto px-8 py-4 bg-white text-primary font-bold rounded-full hover:bg-muted hover:scale-105 transition-all duration-300 shadow-lg shadow-black/20 text-base"
               >
                 Kurs anfragen

@@ -40,7 +40,7 @@ export default function Footer() {
               <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-1">Navigation</span>
               <Link href="/#kurse" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Kurse</Link>
               <Link href="/#preise" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Preise</Link>
-              <Link href="/contact" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Kontakt</Link>
+              <Link href="/kontakt" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Kontakt</Link>
             </div>
             <div className="flex flex-col gap-2">
               <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-1">Rechtliches</span>
