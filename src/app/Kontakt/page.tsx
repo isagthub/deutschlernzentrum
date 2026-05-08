@@ -21,7 +21,7 @@ export default function ContactPage() {
                 Kontakt
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight mb-4">
-                Melde dich bei uns
+                Melde dich bei uns für deinen online Deutschkurs
               </h1>
               <p className="text-xl text-white/70 leading-relaxed">
                 Fragen zum Kurs? Bereit anzufangen? Wir freuen uns auf deine Nachricht.
@@ -94,7 +94,7 @@ export default function ContactPage() {
 
                 {/* WhatsApp CTA card */}
                 <a
-                  href="https://wa.me/4915175034355"
+                  href="https://wa.me/004915175034355"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="reveal-right delay-200 flex items-center gap-4 bg-green-500 text-white rounded-3xl p-6 shadow-lg shadow-green-500/30 hover:bg-green-600 transition-all duration-300 hover:-translate-y-1 group"

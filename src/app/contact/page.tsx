@@ -21,7 +21,7 @@ export default function ContactPage() {
                 Kontakt
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight mb-4">
-                Melde dich bei uns
+                Melde dich bei uns für deinen online Deutschkurs
               </h1>
               <p className="text-xl text-white/70 leading-relaxed">
                 Fragen zum Kurs? Bereit anzufangen? Wir freuen uns auf deine Nachricht.

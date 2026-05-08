@@ -36,7 +36,7 @@ export default function CoursesSection() {
             <span className="w-8 h-px bg-accent" />
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-primary tracking-tight text-balance">
-            Zwei Kurswege, ein Ziel
+            Zwei online Kurswege, ein Ziel
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
             Ob strukturiertes Sprachtraining oder lebendiges Konversationstraining, wir haben den richtigen Kurs für dich.
