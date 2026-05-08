@@ -17,5 +17,14 @@ const nextConfig = {
     remotePatterns: imageHosts,
     minimumCacheTTL: 60,
   }
+async redirects() {
+    return [
+      {
+        source: '/contact',
+        destination: '/kontakt',
+        permanent: true,
+      },
+    ];
+  },
 };
 export default nextConfig;
