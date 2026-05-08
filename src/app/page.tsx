@@ -21,6 +21,20 @@ export default function HomePage() {
         <PricingSection />
         <TrustSection />
         <CtaSection />
+<section className="py-16 border-t border-border">
+  <div className="max-w-4xl mx-auto px-4">
+    <h2 className="text-2xl font-bold mb-4">
+      Online Deutsch lernen mit dem Deutschlernzentrum
+    </h2>
+
+    <p className="text-muted-foreground leading-relaxed">
+      Das Deutschlernzentrum bietet Online Deutschkurse für dein Niveau A2-C1.
+      Wir helfen dir bei der Vorbereitung auf Goethe-Zertifikate,
+      Telc-Prüfungen und dem sicheren Deutschsprechen im Alltag.
+    </p>
+  </div>
+</section>
+      
       </main>
       <Footer />
       <WhatsAppButton />
