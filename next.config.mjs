@@ -16,7 +16,7 @@ const nextConfig = {
   images: {
     remotePatterns: imageHosts,
     minimumCacheTTL: 60,
-  }
+  },
 async redirects() {
     return [
       {
