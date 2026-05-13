@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: 'Über uns | Deutschlernzentrum',
   description: 'Lern Isabella kennen – Gründerin des Deutschlernzentrums, zertifiziert vom Goethe-Institut, seit 2018 leidenschaftliche Deutschlehrerin. Erfahre, wofür wir stehen.',
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/uber-uns`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/ueber-uns`,
   },
   openGraph: {
     title: 'Über uns | Deutschlernzentrum',
     description: 'Isabella und das Deutschlernzentrum – persönlich, zertifiziert, mit echtem Anspruch.',
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/uber-uns`,
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/ueber-uns`,
     type: 'website',
     images: [
       {

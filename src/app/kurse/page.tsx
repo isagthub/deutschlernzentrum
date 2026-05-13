@@ -74,7 +74,7 @@ const courses = [
     title: 'Prüfungsvorbereitung',
     description:
       'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatsprüfungen. Wir trainieren Prüfungsformat, Strategien und Sprachkompetenz für deinen Erfolg.',
-    tags: ['Telc', 'Goethe', 'B1–C1'],
+    tags: ['Telc', 'Goethe', 'A2–C1'],
     tagStyle: 'bg-accent/10 text-accent',
     cta: 'Mehr erfahren',
     cardStyle: 'bg-white border-border',
