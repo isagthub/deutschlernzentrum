@@ -105,34 +105,21 @@ export default function UeberUnsPage() {
               {/* Main text */}
               <div className="lg:col-span-7 reveal-left">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-primary tracking-tight mb-6">
-                  Warum ich das Deutschlernzentrum gegründet habe
+                  Hallo, ich bin Isabella, die Gründerin des Deutschlernzentrums.
                 </h2>
                 <div className="space-y-5 text-foreground/80 leading-relaxed text-base">
                   <p>
-                    Als ich 2018 anfing, Deutsch als Fremdsprache zu unterrichten, fiel mir schnell auf, wie groß der Unterschied zwischen gutem und schlechtem Sprachunterricht wirklich ist. Viele meiner Schülerinnen und Schüler hatten bereits Kurse besucht – und trotzdem kaum sprechen können. Nicht weil sie kein Talent hatten, sondern weil der Unterricht sie nicht dort abgeholt hatte, wo sie standen.
-                  </p>
-                  <p>
-                    Das wollte ich anders machen. Ich habe mich vom <strong className="text-primary">Goethe-Institut</strong> zertifizieren lassen – nicht nur, weil es der anerkannte Standard ist, sondern weil ich selbst verstehen wollte, was exzellenter Deutschunterricht bedeutet. Seitdem unterrichte ich nach didaktischen Prinzipien, die wirklich funktionieren: kommunikativ, strukturiert, auf den Menschen zugeschnitten.
-                  </p>
-                  <p>
-                    Mein Weg hat mich durch viele Länder geführt – ich habe in Europa, im Nahen Osten, in Indien und in Südostasien gelebt und gelehrt. Diese Erfahrungen haben mich geprägt: Ich weiß, wie es sich anfühlt, in einem fremden Land eine neue Sprache zu lernen, sich in einer unbekannten Kultur zurechtzufinden und trotzdem jeden Tag funktionieren zu müssen. Ich kenne die Unsicherheiten, die Frustration – und den unglaublichen Moment, wenn plötzlich alles klick macht.
-                  </p>
-                  <p>
-                    Online-Unterricht erlaubt mir außerdem, wirklich individuell zu arbeiten: Ich kann Lernende aus den unterschiedlichsten Kulturen und Sprachhintergründen begleiten, Unterrichtszeiten flexibel an Berufs- und Lebensalltag anpassen und trotzdem – oder gerade deshalb – eine echte persönliche Verbindung aufbauen. Ich habe erlebt, dass Nähe nicht von einem gemeinsamen Raum abhängt, sondern von echter Aufmerksamkeit.
-                  </p>
-                  <p>
-                    Das Deutschlernzentrum ist aus diesem Anspruch entstanden. Ich wollte einen Ort schaffen – auch wenn er digital ist –, an dem Lernen nicht nach Schema F abläuft. Einen Ort, an dem Lehrkräfte wirklich qualifiziert sind, an dem Lernende ernst genommen werden und an dem Deutsch nicht als Hürde, sondern als Schlüssel erlebt wird.
-                  </p>
-                  <p>
-                    Heute begleite ich Menschen aus aller Welt auf ihrem Weg zur deutschen Sprache: Fachkräfte, die in Deutschland arbeiten möchten. Pflegepersonal, das im Berufsalltag sicher kommunizieren muss. Menschen, die einfach Deutsch sprechen wollen – fließend, selbstbewusst, korrekt.
-                  </p>
-                  <p>
                     Ich habe mich dafür entschieden, ausschließlich online Kurse anzubieten. Das ermöglicht unseren Lernenden, von überall auf der Welt an unseren Kursen teilzunehmen – ohne Pendelstress und ohne geografische Einschränkungen. Wir sind überzeugt: Jemand, der in Bangalore arbeitet, in New York studiert oder in Jakarta lebt und Deutsch lernen möchte, soll dieselbe Qualität erhalten können wie jemand in Berlin oder Wien.
                   </p>
-                  <p className="font-medium text-foreground">
-                    Ich freue mich, dass du hier bist. Und ich freue mich darauf, auch dich auf diesem Weg zu begleiten.
+                  <p>
+                    Der Online-Unterricht erlaubt uns, wirklich individuell zu arbeiten und die Unterrichtszeiten flexibel an Berufs- und Lebensalltag anzupassen und gerade deshalb eine echte persönliche Verbindung aufzubauen.
                   </p>
-                  <p className="text-primary font-semibold">– Isabella, Gründerin des Deutschlernzentrums</p>
+                  <p>
+                    Das Deutschlernzentrum ist aus diesem Anspruch entstanden. Ich wollte einen digitalen Raum schaffen, in dem Schüler und Schülerinnen im Zentrum stehen und der Unterricht komplett an die Bedürfnisse angepasst wird. Einen Ort, an dem die Lehrkräfte wirklich qualifiziert sind und an dem das Deutschlernen als Schlüssel zum Leben in Deutschland gesehen wird.
+                  </p>
+                  <p>
+                    Heute begleiten wir Menschen aus aller Welt auf ihrem Weg zur deutschen Sprache, in die deutsche Kultur und nach Deutschland. Und das tun wir mit sehr viel Herzblut.
+                  </p>
                 </div>
               </div>
 
