@@ -41,12 +41,13 @@ const pricingPlans = [
     description: 'Du buchst einen Platz und darfst bis zu 2 weitere Personen kostenlos mitbringen.',
     features: [
       'Du + 2 Begleitpersonen inklusive',
+      'Kostenfreies Kennlerntreffen mit Ersteinschätzung deines Niveaus',
       'Live-Unterricht mit Lehrkraft',
       'Flexibler Termin',
       'Offizielles Teilnahmezertifikat nach Levelabschluss',
       'Keine Mindestanzahl an Stunden',
     ],
-    cta: 'Einzelkurs buchen',
+    cta: 'Einzelkurs anfragen',
     ctaHref: '/kontakt',
   },
   {
@@ -55,8 +56,8 @@ const pricingPlans = [
     tagline: 'Gemeinsam lernen, günstiger',
     price: '15',
     unit: '/ Person / Kurseinheit (45 Min)',
-    highlight: true,
-    badge: 'Beliebt',
+    highlight: false,
+    badge: null,
     description: 'Lerne in einer kleinen Gruppe von 3–5 Teilnehmenden für maximale Interaktion.',
     features: [
       '3–5 Teilnehmende pro Kurs',
@@ -109,56 +110,40 @@ export default function PreisePage() {
               {pricingPlans?.map((plan) => (
                 <div
                   key={plan?.id}
-                  className={`reveal-up flex flex-col rounded-3xl p-8 border transition-all duration-300 hover:shadow-xl hover:-translate-y-1 card-shine relative ${
-                    plan?.highlight
-                      ? 'bg-primary border-primary shadow-2xl shadow-primary/30 overflow-hidden'
-                      : 'bg-white border-border shadow-md'
-                  }`}
+                  className="reveal-up flex flex-col rounded-3xl p-8 border transition-all duration-300 hover:shadow-xl hover:-translate-y-1 card-shine relative bg-white border-border shadow-md"
                 >
-                  {plan?.highlight && (
-                    <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-accent via-amber-400 to-accent" />
-                  )}
-                  {plan?.badge && (
-                    <div className="absolute top-5 right-5 px-3 py-1 bg-accent text-white text-xs font-bold rounded-full">
-                      {plan?.badge}
-                    </div>
-                  )}
-                  <div className={`text-xs font-bold uppercase tracking-widest mb-2 ${plan?.highlight ? 'text-accent' : 'text-muted-foreground'}`}>
+                  <div className="text-xs font-bold uppercase tracking-widest mb-2 text-muted-foreground">
                     {plan?.name}
                   </div>
-                  <div className={`text-sm mb-6 ${plan?.highlight ? 'text-white/70' : 'text-muted-foreground'}`}>
+                  <div className="text-sm mb-6 text-muted-foreground">
                     {plan?.tagline}
                   </div>
                   <div className="flex items-end gap-2 mb-2">
-                    <span className={`text-6xl font-extrabold tracking-tighter ${plan?.highlight ? 'text-white' : 'text-primary'}`}>
+                    <span className="text-6xl font-extrabold tracking-tighter text-primary">
                       {plan?.price}€
                     </span>
                   </div>
-                  <div className={`text-sm mb-6 ${plan?.highlight ? 'text-white/60' : 'text-muted-foreground'}`}>
+                  <div className="text-sm mb-6 text-muted-foreground">
                     {plan?.unit}
                   </div>
-                  <p className={`text-sm mb-7 leading-relaxed ${plan?.highlight ? 'text-white/80' : 'text-muted-foreground'}`}>
+                  <p className="text-sm mb-7 leading-relaxed text-muted-foreground">
                     {plan?.description}
                   </p>
                   <ul className="space-y-3 mb-8 flex-1">
                     {plan?.features?.map((feat) => (
                       <li key={feat} className="flex items-start gap-2.5 text-sm">
-                        <span className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 ${plan?.highlight ? 'bg-accent/30' : 'bg-primary/10'}`}>
-                          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke={plan?.highlight ? 'var(--accent)' : 'var(--primary)'} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                        <span className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 bg-primary/10">
+                          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M20 6L9 17l-5-5" />
                           </svg>
                         </span>
-                        <span className={plan?.highlight ? 'text-white/90' : 'text-foreground'}>{feat}</span>
+                        <span className="text-foreground">{feat}</span>
                       </li>
                     ))}
                   </ul>
                   <Link
                     href={plan?.ctaHref}
-                    className={`inline-flex items-center justify-center gap-2 px-6 py-4 font-bold rounded-2xl transition-all duration-300 hover:-translate-y-0.5 text-sm ${
-                      plan?.highlight
-                        ? 'bg-accent text-white hover:bg-amber-600 shadow-md shadow-accent/30'
-                        : 'bg-primary text-white hover:bg-secondary shadow-md shadow-primary/20'
-                    }`}
+                    className="inline-flex items-center justify-center gap-2 px-6 py-4 font-bold rounded-2xl transition-all duration-300 hover:-translate-y-0.5 text-sm bg-primary text-white hover:bg-secondary shadow-md shadow-primary/20"
                   >
                     {plan?.cta}
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
