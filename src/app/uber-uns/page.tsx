@@ -115,6 +115,15 @@ export default function UeberUnsPage() {
                     Das wollte ich anders machen. Ich habe mich vom <strong className="text-primary">Goethe-Institut</strong> zertifizieren lassen – nicht nur, weil es der anerkannte Standard ist, sondern weil ich selbst verstehen wollte, was exzellenter Deutschunterricht bedeutet. Seitdem unterrichte ich nach didaktischen Prinzipien, die wirklich funktionieren: kommunikativ, strukturiert, auf den Menschen zugeschnitten.
                   </p>
                   <p>
+                    Mein Weg hat mich durch viele Länder geführt – ich habe in Europa, im Nahen Osten, in Indien und in Südostasien gelebt und gelehrt. Diese Erfahrungen haben mich geprägt: Ich weiß, wie es sich anfühlt, in einem fremden Land eine neue Sprache zu lernen, sich in einer unbekannten Kultur zurechtzufinden und trotzdem jeden Tag funktionieren zu müssen. Ich kenne die Unsicherheiten, die Frustration – und den unglaublichen Moment, wenn plötzlich alles klick macht.
+                  </p>
+                  <p>
+                    Genau diese Erfahrungen haben mich dazu gebracht, mich bewusst für eine <strong className="text-primary">rein online geführte Sprachschule</strong> zu entscheiden. Nicht als Kompromiss, sondern als Überzeugung: Online-Unterricht bedeutet, dass meine Schülerinnen und Schüler von überall auf der Welt lernen können – ohne Pendelstress, ohne feste Klassenzimmer, ohne geografische Einschränkungen. Wer in Dubai arbeitet, in Bangalore studiert oder in Bangkok lebt und Deutsch lernen möchte, soll dieselbe Qualität erhalten wie jemand in Berlin oder Wien. Das ist für mich keine Frage des Formats, sondern eine Frage der Gerechtigkeit.
+                  </p>
+                  <p>
+                    Online-Unterricht erlaubt mir außerdem, wirklich individuell zu arbeiten: Ich kann Lernende aus den unterschiedlichsten Kulturen und Sprachhintergründen begleiten, Unterrichtszeiten flexibel an Berufs- und Lebensalltag anpassen und trotzdem – oder gerade deshalb – eine echte persönliche Verbindung aufbauen. Ich habe erlebt, dass Nähe nicht von einem gemeinsamen Raum abhängt, sondern von echter Aufmerksamkeit.
+                  </p>
+                  <p>
                     Das Deutschlernzentrum ist aus diesem Anspruch entstanden. Ich wollte einen Ort schaffen – auch wenn er digital ist –, an dem Lernen nicht nach Schema F abläuft. Einen Ort, an dem Lehrkräfte wirklich qualifiziert sind, an dem Lernende ernst genommen werden und an dem Deutsch nicht als Hürde, sondern als Schlüssel erlebt wird.
                   </p>
                   <p>
@@ -135,6 +144,7 @@ export default function UeberUnsPage() {
                     {[
                       { label: 'Unterrichtet seit', value: '2018' },
                       { label: 'Zertifizierung', value: 'Goethe-Institut' },
+                      { label: 'Gelebt & gelehrt in', value: 'Europa, Naher Osten, Indien, Südostasien' },
                       { label: 'Unterrichtsformat', value: '100 % online, live' },
                       { label: 'Niveaustufen', value: 'A2 bis C1' },
                       { label: 'Kursarten', value: 'Sprachkurs, Konversation, Prüfungsvorbereitung' },
