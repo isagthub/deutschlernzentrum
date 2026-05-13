@@ -35,20 +35,39 @@ export default function ContactPage() {
       <main className="pt-20">
 
         {/* ── Hero ─────────────────────────────────────────────── */}
-        <section className="py-16 md:py-24 bg-primary relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary/30 rounded-full blur-[120px] pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-accent/20 rounded-full blur-[80px] pointer-events-none" />
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="reveal-left">
-                <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-accent mb-4">
-                  <span className="w-8 h-px bg-accent" />
-                  Test
-                </span>
-                </div>
- <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6">
-                  Hallo! Ich bin Isabella, Gründerin des Deutschlernzentrums.
-                </h1>
+         <section className="py-16 md:py-24 bg-primary relative overflow-hidden">
+          {/* Decorative blobs */}
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary/40 rounded-full blur-[120px] pointer-events-none" />
+          <div className="absolute bottom-0 left-1/4 w-[350px] h-[350px] bg-accent/20 rounded-full blur-[90px] pointer-events-none" />
+          {/* Dot grid */}
+          <div
+           
+            style={{
+              backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px)',
+              backgroundSize: '32px 32px',
+            }}
+          />
+
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col lg:flex-row lg:items-end gap-10 pb-16">
+              {/* Left: headline */}
+              <div className="flex-1 max-w-2xl reveal-up">
+                <a
+                  href="/"
+                  className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition-colors text-sm font-medium mb-8 group"
+                >
+                  <svg className="group-hover:-translate-x-0.5 transition-transform" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M19 12H5M12 5l-7 7 7 7"/>
+                  </svg>
+                  Zurück zur Startseite
+                </a>
+
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-accent/20 border border-accent/30 rounded-full mb-5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+                  <span className="text-xs font-bold text-accent uppercase tracking-widest">Kontakt</span>
+       </div>
+       
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1] mb-5">
                   Schreib uns —<br />
                   <span className="gold-scan-text">wir freuen uns</span><br />
