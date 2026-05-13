@@ -102,7 +102,7 @@ export default function UeberUnsPage() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
 
               {/* Main text */}
-              <div className="lg:col-span-7 reveal-left">
+              <div className="lg:col-span-12 reveal-left">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-primary tracking-tight mb-6">
                   Hallo, ich bin Isabella, die Gründerin des Deutschlernzentrums.
                 </h2>
@@ -122,29 +122,9 @@ export default function UeberUnsPage() {
                 </div>
               </div>
 
-              {/* Sidebar facts */}
-              <div className="lg:col-span-5 reveal-right">
-                <div className="bg-muted/50 rounded-3xl p-8 border border-border space-y-6">
-                  <h3 className="text-lg font-extrabold text-primary">Auf einen Blick</h3>
-                  <ul className="space-y-4">
-                    {[
-                      { label: 'Unterrichtet seit', value: '2018' },
-                      { label: 'Zertifizierung', value: 'Goethe-Institut' },
-                      { label: 'Gelebt & gelehrt in', value: 'Europa, Naher Osten, Indien, Südostasien' },
-                      { label: 'Unterrichtsformat', value: '100 % online, live' },
-                      { label: 'Niveaustufen', value: 'A2 bis C1' },
-                      { label: 'Kursarten', value: 'Sprachkurs, Konversation, Prüfungsvorbereitung' },
-                      { label: 'Prüfungen', value: 'Goethe-Institut & telc' },
-                    ].map((item) => (
-                      <li key={item.label} className="flex flex-col gap-0.5 pb-4 border-b border-border last:border-0 last:pb-0">
-                        <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">{item.label}</span>
-                        <span className="text-sm font-semibold text-foreground">{item.value}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="mt-6 bg-accent/10 rounded-3xl p-6 border border-accent/20">
+              {/* Quote */}
+              <div className="lg:col-span-12 reveal-right">
+                <div className="bg-accent/10 rounded-3xl p-6 border border-accent/20">
                   <p className="text-sm text-foreground/80 leading-relaxed italic">
                     „Sprache ist mehr als Grammatik. Sie ist Zugang – zu Menschen, zu Chancen, zu einem neuen Leben. Genau das möchte ich meinen Schülerinnen und Schülern geben."
                   </p>
