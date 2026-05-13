@@ -17,7 +17,7 @@ const faqCategories = [
       },
       {
         q: 'Für wen sind die Kurse geeignet?',
-        a: 'Unsere Kurse richten sich an Erwachsene, die Deutsch lernen oder verbessern möchten – ob für den Alltag, den Beruf oder eine offizielle Prüfung.',
+        a: 'Unsere Kurse richten sich an Jugendliche und Erwachsene jeden Alters, die Deutsch lernen oder verbessern möchten – ob für den Alltag, den Beruf oder eine offizielle Prüfung.',
       },
       {
         q: 'Wie lange dauert eine Niveaustufe?',

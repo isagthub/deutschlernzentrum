@@ -63,12 +63,12 @@ export default function ContactForm() {
     e.preventDefault();
     if (!validate()) return;
 
-    // Build mailto link — backend integration point
-    const subject = encodeURIComponent(`Kursanfrage: ${form.courseInterest || 'Allgemein'} — ${form.name}`);
+    const courseLabel = courseOptions.find((o) => o.value === form.courseInterest)?.label || 'Allgemein';
+    const subject = encodeURIComponent(`Kursanfrage: ${courseLabel} – ${form.name}`);
     const body = encodeURIComponent(
-      `Name: ${form.name}\nE-Mail: ${form.email}\nTelefon: ${form.phone || 'nicht angegeben'}\nKursinteresse: ${form.courseInterest || 'nicht angegeben'}\n\nNachricht:\n${form.message}\n\n---\nDatenschutz-Einwilligung: Ja`
+      `Hallo,\n\nich interessiere mich für einen Kurs und würde mich über eine Rückmeldung freuen.\n\nName: ${form.name}\nE-Mail: ${form.email}\nTelefon: ${form.phone || 'nicht angegeben'}\nKursinteresse: ${courseLabel}\n\nNachricht:\n${form.message}\n\n---\nDatenschutz-Einwilligung: Ja`
     );
-    window.location.href = `mailto:kontakt@deutschlernzentrum.de?subject=${subject}&body=${body}`;
+    window.open(`mailto:kontakt@deutschlernzentrum.de?subject=${subject}&body=${body}`, '_self');
     setSubmitted(true);
   };
 
