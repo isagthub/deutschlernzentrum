@@ -22,7 +22,8 @@ const courseOptions = [
   { value: 'beratung', label: 'Erstberatung / allgemeine Frage' },
 ];
 
-// Placeholder — actual implementation lives in src/app/kontakt/components/ContactForm.tsx
+// Route handled by src/app/kontakt/components/ContactForm.tsx
+// This file is kept as a non-route stub to avoid webpack case-conflict errors.
 export const contactFormUpperPlaceholder = true;
 
 export default function ContactForm() {

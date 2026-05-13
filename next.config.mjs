@@ -22,7 +22,12 @@ const nextConfig = {
     return [
       {
         source: '/contact',
-        destination: '/Kontakt',
+        destination: '/kontakt',
+        permanent: true,
+      },
+      {
+        source: '/Kontakt',
+        destination: '/kontakt',
         permanent: true,
       },
     ];

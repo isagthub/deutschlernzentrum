@@ -1,3 +1,3 @@
-// Route handled by src/app/kontakt/page.tsx
-// This file is kept as a non-route stub to avoid webpack case-conflict errors.
-export const kontaktUpperPlaceholder = true;
+// NOT a route — real implementation lives in src/app/kontakt/page.tsx
+// Kept only to satisfy the file system; no default export so Next.js ignores it.
+export const _kontaktUpperStub = true;
