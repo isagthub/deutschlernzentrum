@@ -35,7 +35,12 @@ export default function ImpressumPage() {
         <section className="pt-28 md:pt-36 pb-12 bg-primary relative overflow-hidden">
           <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-secondary/30 rounded-full blur-[100px] pointer-events-none" />
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-           <a
+                     <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">
+              Impressum
+            </h1>
+            <p className="text-white/60 text-lg">Rechtliche Informationen zu Deutschlernzentrum</p>
+          </div>
+            <a
                   href="/"
                   className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition-colors text-sm font-medium mb-8 group"
                 >
@@ -44,11 +49,6 @@ export default function ImpressumPage() {
                   </svg>
                   Zurück zur Startseite
                 </a>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">
-              Impressum
-            </h1>
-            <p className="text-white/60 text-lg">Rechtliche Informationen zu Deutschlernzentrum</p>
-          </div>
         </section>
 
         {/* Content */}
