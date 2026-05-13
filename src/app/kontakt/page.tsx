@@ -32,7 +32,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-background">
+      <main className="pt-20">
 
         {/* ── Hero ─────────────────────────────────────────────── */}
         <section className="py-16 md:py-24 bg-primary relative overflow-hidden">
