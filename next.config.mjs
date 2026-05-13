@@ -29,12 +29,7 @@ const nextConfig = {
   },
 
   async rewrites() {
-    return [
-      {
-        source: '/kontakt',
-        destination: '/Kontakt',
-      },
-    ];
+    return [];
   },
 };
 export default nextConfig;
