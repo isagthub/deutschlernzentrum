@@ -41,7 +41,7 @@ export default function ContactPage() {
           <div className="absolute bottom-0 left-1/4 w-[350px] h-[350px] bg-accent/20 rounded-full blur-[90px] pointer-events-none" />
           {/* Dot grid */}
           <div
-            className="absolute inset-0 pointer-events-none opacity-10"
+           
             style={{
               backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px)',
               backgroundSize: '32px 32px',
