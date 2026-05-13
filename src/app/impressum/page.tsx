@@ -1,7 +1,30 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/app/components/WhatsAppButton';
+
+export const metadata: Metadata = {
+  title: 'Impressum | Deutschlernzentrum',
+  description: 'Rechtliche Informationen und Impressum von Deutschlernzentrum.',
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/impressum`,
+  },
+  openGraph: {
+    title: 'Impressum | Deutschlernzentrum',
+    description: 'Rechtliche Informationen und Impressum.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/impressum`,
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/Deutschlehrerin.png',
+        width: 1200,
+        height: 630,
+        alt: 'Deutschlehrerin im Online-Unterricht',
+      },
+    ],
+  },
+};
 
 export default function ImpressumPage() {
   return (

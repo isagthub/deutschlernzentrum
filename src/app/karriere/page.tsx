@@ -1,14 +1,31 @@
 import React from 'react';
-
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/app/components/WhatsAppButton';
 import ScrollRevealInit from '@/app/components/ScrollRevealInit';
 import AppImage from '@/components/ui/AppImage';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Karriere | Deutschlernzentrum',
   description: 'Muttersprachliche und zertifizierte Sprachlehrkräfte können sich gerne initiativ beim Deutschlernzentrum bewerben.',
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/karriere`,
+  },
+  openGraph: {
+    title: 'Karriere | Deutschlernzentrum',
+    description: 'Wir suchen muttersprachliche und zertifizierte Sprachlehrkräfte.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/karriere`,
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/Deutschlehrerin.png',
+        width: 1200,
+        height: 630,
+        alt: 'Deutschlehrerin im Online-Unterricht',
+      },
+    ],
+  },
 };
 
 const values = [

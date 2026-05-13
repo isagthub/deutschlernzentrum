@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CtaSection from '@/app/components/CtaSection';
@@ -7,9 +8,26 @@ import WhatsAppButton from '@/app/components/WhatsAppButton';
 import ScrollRevealInit from '@/app/components/ScrollRevealInit';
 import AppImage from '@/components/ui/AppImage';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Prüfungsvorbereitung Telc & Goethe | Deutschlernzentrum',
-  description: 'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatsprüfungen. Lerne Prüfungsstrategien, übe Prüfungsformate und bestehe deine Deutschprüfung.',
+  description: 'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatssprüfungen. Lerne Prüfungsstrategien, übe Prüfungsformate und bestehe deine Deutschprüfung.',
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/prufungsvorbereitung`,
+  },
+  openGraph: {
+    title: 'Prüfungsvorbereitung Telc & Goethe | Deutschlernzentrum',
+    description: 'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatssprüfungen.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/prufungsvorbereitung`,
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/Qualitaetskontrolle.png',
+        width: 1200,
+        height: 630,
+        alt: 'Qualitätskontrolle im Deutschunterricht',
+      },
+    ],
+  },
 };
 
 const exams = [

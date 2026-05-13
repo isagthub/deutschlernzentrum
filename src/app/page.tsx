@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HeroSection from '@/app/components/HeroSection';
@@ -8,6 +9,28 @@ import TrustSection from '@/app/components/TrustSection';
 import CtaSection from '@/app/components/CtaSection';
 import WhatsAppButton from '@/app/components/WhatsAppButton';
 import ScrollRevealInit from '@/app/components/ScrollRevealInit';
+
+export const metadata: Metadata = {
+  title: 'Deutschlernzentrum: Online Deutschkurse',
+  description: 'Online Deutschkurse mit zertifizierten und muttersprachlichen Lehrkräften. Sprache + Kultur vereint. Kurse A2–C1, Prüfungsvorbereitung und Konversation. Deutsch lernen und ankommen.',
+  alternates: {
+    canonical: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+  },
+  openGraph: {
+    title: 'Deutschlernzentrum: Online Deutschkurse',
+    description: 'Online Deutschkurse mit zertifizierten Lehrkräften. Sprache + Kultur vereint.',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/Deutschlehrerin.png',
+        width: 1200,
+        height: 630,
+        alt: 'Deutschlehrerin im Online-Unterricht',
+      },
+    ],
+  },
+};
 
 const courseTeaser = [
   {
@@ -32,7 +55,7 @@ const courseTeaser = [
   {
     href: '/kurse/prufungsvorbereitung',
     title: 'Prüfungsvorbereitung',
-    desc: 'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatsprüfungen.',
+    desc: 'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatssprüfungen.',
     tags: ['Telc', 'Goethe'],
     tagStyle: 'bg-amber-100 text-amber-800',
     style: 'bg-white border-border',
@@ -41,8 +64,27 @@ const courseTeaser = [
 ];
 
 export default function HomePage() {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  
+  const webPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Deutschlernzentrum: Online Deutschkurse',
+    description: 'Online Deutschkurse mit zertifizierten und muttersprachlichen Lehrkräften.',
+    url: baseUrl,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Deutschlernzentrum',
+      url: baseUrl,
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
       <Header />
       <main>
         <HeroSection />

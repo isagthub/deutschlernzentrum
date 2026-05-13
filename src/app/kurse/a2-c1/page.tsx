@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CtaSection from '@/app/components/CtaSection';
@@ -7,9 +8,26 @@ import WhatsAppButton from '@/app/components/WhatsAppButton';
 import ScrollRevealInit from '@/app/components/ScrollRevealInit';
 import AppImage from '@/components/ui/AppImage';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Sprachkurse A2–C1 | Deutschlernzentrum',
   description: 'Strukturierter Deutschunterricht nach GER für die Niveaus A2, B1, B2 und C1. Live-Unterricht mit zertifizierten Muttersprachlerinnen.',
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/a2-c1`,
+  },
+  openGraph: {
+    title: 'Sprachkurse A2–C1 | Deutschlernzentrum',
+    description: 'Strukturierter Deutschunterricht nach GER. Live-Unterricht mit zertifizierten Lehrkräften.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/a2-c1`,
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/Frau-Laptop.png',
+        width: 1200,
+        height: 630,
+        alt: 'Frau lernt Deutsch am Laptop',
+      },
+    ],
+  },
 };
 
 const levels = [

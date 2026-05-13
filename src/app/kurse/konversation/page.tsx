@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CtaSection from '@/app/components/CtaSection';
@@ -7,9 +8,26 @@ import WhatsAppButton from '@/app/components/WhatsAppButton';
 import ScrollRevealInit from '@/app/components/ScrollRevealInit';
 import AppImage from '@/components/ui/AppImage';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Konversationskurse | Deutschlernzentrum',
   description: 'Lerne echtes Alltagsdeutsch und verstehe das Leben in Deutschland. Konversationskurse für alle Niveaus – online und live.',
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/konversation`,
+  },
+  openGraph: {
+    title: 'Konversationskurse | Deutschlernzentrum',
+    description: 'Echtes Alltagsdeutsch und Leben in Deutschland. Für alle Niveaus.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/konversation`,
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/Videocall2.png',
+        width: 1200,
+        height: 630,
+        alt: 'Gruppe von Erwachsenen im Online-Videocall',
+      },
+    ],
+  },
 };
 
 const topics = [

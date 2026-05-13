@@ -1,14 +1,32 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CtaSection from '@/app/components/CtaSection';
 import WhatsAppButton from '@/app/components/WhatsAppButton';
 import ScrollRevealInit from '@/app/components/ScrollRevealInit';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Preise | Deutschlernzentrum',
   description: 'Transparente Preise für Einzel- und Gruppenkurse. Keine versteckten Kosten, kein langer Vertrag.',
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/preise`,
+  },
+  openGraph: {
+    title: 'Preise | Deutschlernzentrum',
+    description: 'Transparente Preise für Einzel- und Gruppenkurse.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/preise`,
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/Deutschlehrerin.png',
+        width: 1200,
+        height: 630,
+        alt: 'Deutschlehrerin im Online-Unterricht',
+      },
+    ],
+  },
 };
 
 const pricingPlans = [
