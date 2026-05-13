@@ -45,6 +45,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-2">
               <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-1">Informationen</span>
+              <Link href="/uber-uns" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Über uns</Link>
               <Link href="/preise" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Preise</Link>
               <Link href="/faq" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">FAQ</Link>
               <Link href="/karriere" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Karriere</Link>

@@ -14,6 +14,7 @@ const kursSubLinks = [
 
 const navLinks = [
   { label: 'Kurse', href: '/kurse', hasDropdown: true },
+  { label: 'Über uns', href: '/uber-uns', hasDropdown: false },
   { label: 'Preise', href: '/preise', hasDropdown: false },
   { label: 'FAQ', href: '/faq', hasDropdown: false },
   { label: 'Karriere', href: '/karriere', hasDropdown: false },
