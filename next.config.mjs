@@ -17,12 +17,22 @@ const nextConfig = {
     remotePatterns: imageHosts,
     minimumCacheTTL: 60,
   },
-async redirects() {
+
+  async redirects() {
     return [
       {
         source: '/contact',
-        destination: '/kontakt',
+        destination: '/Kontakt',
         permanent: true,
+      },
+    ];
+  },
+
+  async rewrites() {
+    return [
+      {
+        source: '/kontakt',
+        destination: '/Kontakt',
       },
     ];
   },

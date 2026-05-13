@@ -22,7 +22,9 @@ const courseOptions = [
   { value: 'beratung', label: 'Erstberatung / allgemeine Frage' },
 ];
 
-export default function ContactForm() {
+export const contactFormPlaceholder = true;
+
+export function ContactForm() {
   const [form, setForm] = useState<FormData>({
     name: '',
     email: '',
@@ -110,6 +112,7 @@ export default function ContactForm() {
       </p>
 
       <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-5">
+        {/* Name */}
         <div>
           <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-1.5">
             Name <span className="text-red-500">*</span>
@@ -127,6 +130,7 @@ export default function ContactForm() {
           {errors.name && <p className="mt-1.5 text-xs text-red-600">{errors.name}</p>}
         </div>
 
+        {/* Email + Phone row */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <div>
             <label htmlFor="email" className="block text-sm font-semibold text-foreground mb-1.5">
@@ -161,6 +165,7 @@ export default function ContactForm() {
           </div>
         </div>
 
+        {/* Course interest */}
         <div>
           <label htmlFor="courseInterest" className="block text-sm font-semibold text-foreground mb-1.5">
             Kursinteresse
@@ -178,6 +183,7 @@ export default function ContactForm() {
           </select>
         </div>
 
+        {/* Message */}
         <div>
           <label htmlFor="message" className="block text-sm font-semibold text-foreground mb-1.5">
             Nachricht <span className="text-red-500">*</span>
@@ -194,6 +200,7 @@ export default function ContactForm() {
           {errors.message && <p className="mt-1.5 text-xs text-red-600">{errors.message}</p>}
         </div>
 
+        {/* GDPR Consent checkbox */}
         <div className={`flex items-start gap-3 p-4 rounded-xl border transition-colors ${errors.consent ? 'border-red-300 bg-red-50/50' : 'border-border bg-muted/30'}`}>
           <div className="relative flex-shrink-0 mt-0.5">
             <input
@@ -213,7 +220,8 @@ export default function ContactForm() {
               aria-checked={form.consent}
               role="checkbox"
               className={`w-5 h-5 rounded-md border-2 flex items-center justify-center transition-all duration-200 ${
-                form.consent ? 'bg-primary border-primary' : 'bg-white border-border hover:border-primary'
+                form.consent
+                  ? 'bg-primary border-primary' : 'bg-white border-border hover:border-primary'
               }`}
             >
               {form.consent && (
@@ -239,6 +247,7 @@ export default function ContactForm() {
         </div>
         {errors.consent && <p className="-mt-3 text-xs text-red-600">{errors.consent}</p>}
 
+        {/* Submit */}
         <button
           type="submit"
           className="group w-full flex items-center justify-center gap-3 px-8 py-4 bg-primary text-white font-bold rounded-2xl hover:bg-secondary transition-all duration-300 hover:-translate-y-0.5 shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 text-base"
