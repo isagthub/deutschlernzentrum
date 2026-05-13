@@ -35,7 +35,7 @@ export default function ContactPage() {
       <main className="min-h-screen bg-background">
 
         {/* ── Hero ─────────────────────────────────────────────── */}
-        <section className="relative pt-28 md:pt-36 pb-0 bg-primary overflow-hidden">
+        <section className="relative pt-28 md:pt-36 pb-0 bg-background overflow-hidden">
           {/* Decorative blobs */}
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary/40 rounded-full blur-[120px] pointer-events-none" />
           <div className="absolute bottom-0 left-1/4 w-[350px] h-[350px] bg-accent/20 rounded-full blur-[90px] pointer-events-none" />

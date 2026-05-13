@@ -8,7 +8,7 @@ import AppImage from '@/components/ui/AppImage';
 
 export const metadata: Metadata = {
   title: 'Über uns | Deutschlernzentrum',
-  description: 'Lern Isabella kennen – Gründerin des Deutschlernzentrums, zertifiziert vom Goethe-Institut, seit 2018 leidenschaftliche Deutschlehrerin. Erfahre, wofür wir stehen.',
+  description: 'Lern Isabella kennen. Gründerin des Deutschlernzentrums, zertifiziert vom Goethe-Institut, seit 2018 leidenschaftliche Deutschlehrerin. Erfahre, wofür wir stehen.',
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/ueber-uns`,
   },
@@ -85,11 +85,7 @@ export default function UeberUnsPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
                   <div className="absolute bottom-6 left-6 right-6">
-                    <div className="inline-flex items-center gap-2 bg-white/95 backdrop-blur-sm rounded-full px-4 py-2 shadow-lg">
-                      <span className="text-lg">🎓</span>
-                      <span className="text-sm font-semibold text-primary">Goethe-Institut zertifiziert</span>
-                    </div>
-                  </div>
+                   </div>
                 </div>
               </div>
             </div>
@@ -127,7 +123,7 @@ export default function UeberUnsPage() {
                 <div className="sticky top-28 flex flex-col gap-6">
                   <div className="bg-accent/10 rounded-3xl p-6 border border-accent/20">
                     <p className="text-sm text-foreground/80 leading-relaxed italic">
-                      „Sprache ist mehr als Grammatik. Sie ist Zugang – zu Menschen, zu Chancen, zu einem neuen Leben. Genau das möchte ich meinen Schülerinnen und Schülern geben."
+                      „Sprache ist mehr als Grammatik. Sie ist ein Zugang zu Menschen, zu Chancen und zu einem neuen Leben. Genau das möchte ich meinen Schülerinnen und Schülern geben."
                     </p>
                     <p className="mt-3 text-sm font-semibold text-primary">– Isabella</p>
                   </div>
@@ -142,7 +138,7 @@ export default function UeberUnsPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 reveal-up">
               <h2 className="text-3xl md:text-4xl font-extrabold text-primary tracking-tight">
-                Was eine gute Sprachschule können muss
+                Was eine gute Sprachschule können soll
               </h2>
               <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
                 Das sind die Maßstäbe, an denen wir uns messen lassen – und an denen wir uns selbst messen.
