@@ -78,10 +78,10 @@ export default function UeberUnsPage() {
               <div className="reveal-right">
                 <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl">
                   <AppImage
-                    src="/assets/images/Deutschlehrerin.png"
-                    alt="Isabella, Gründerin des Deutschlernzentrums, beim Online-Unterricht"
+                    src="/assets/images/Profilbild_ohne-hintergrund-1778676103513.png"
+                    alt="Isabella, Gründerin des Deutschlernzentrums"
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
                   <div className="absolute bottom-6 left-6 right-6">
@@ -102,7 +102,7 @@ export default function UeberUnsPage() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
 
               {/* Main text */}
-              <div className="lg:col-span-12 reveal-left">
+              <div className="lg:col-span-8 reveal-left">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-primary tracking-tight mb-6">
                   Hallo, ich bin Isabella, die Gründerin des Deutschlernzentrums.
                 </h2>
@@ -123,12 +123,22 @@ export default function UeberUnsPage() {
               </div>
 
               {/* Quote */}
-              <div className="lg:col-span-12 reveal-right">
-                <div className="bg-accent/10 rounded-3xl p-6 border border-accent/20">
-                  <p className="text-sm text-foreground/80 leading-relaxed italic">
-                    „Sprache ist mehr als Grammatik. Sie ist Zugang – zu Menschen, zu Chancen, zu einem neuen Leben. Genau das möchte ich meinen Schülerinnen und Schülern geben."
-                  </p>
-                  <p className="mt-3 text-sm font-semibold text-primary">– Isabella</p>
+              <div className="lg:col-span-4 reveal-right">
+                <div className="sticky top-28 flex flex-col gap-6">
+                  <div className="relative rounded-3xl overflow-hidden shadow-xl aspect-[3/4]">
+                    <AppImage
+                      src="/assets/images/Profilbild_ohne-hintergrund-1778676103513.png"
+                      alt="Isabella, Gründerin des Deutschlernzentrums"
+                      fill
+                      className="object-cover object-top"
+                    />
+                  </div>
+                  <div className="bg-accent/10 rounded-3xl p-6 border border-accent/20">
+                    <p className="text-sm text-foreground/80 leading-relaxed italic">
+                      „Sprache ist mehr als Grammatik. Sie ist Zugang – zu Menschen, zu Chancen, zu einem neuen Leben. Genau das möchte ich meinen Schülerinnen und Schülern geben."
+                    </p>
+                    <p className="mt-3 text-sm font-semibold text-primary">– Isabella</p>
+                  </div>
                 </div>
               </div>
             </div>
