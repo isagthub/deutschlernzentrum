@@ -43,7 +43,7 @@ export default function ContactPage() {
               <div className="reveal-left">
                 <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-accent mb-4">
                   <span className="w-8 h-px bg-accent" />
-                  Über uns
+                  Kontakt
                 </span>
                 </div>
 
