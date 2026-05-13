@@ -118,9 +118,6 @@ export default function UeberUnsPage() {
                     Mein Weg hat mich durch viele Länder geführt – ich habe in Europa, im Nahen Osten, in Indien und in Südostasien gelebt und gelehrt. Diese Erfahrungen haben mich geprägt: Ich weiß, wie es sich anfühlt, in einem fremden Land eine neue Sprache zu lernen, sich in einer unbekannten Kultur zurechtzufinden und trotzdem jeden Tag funktionieren zu müssen. Ich kenne die Unsicherheiten, die Frustration – und den unglaublichen Moment, wenn plötzlich alles klick macht.
                   </p>
                   <p>
-                    Genau diese Erfahrungen haben mich dazu gebracht, mich bewusst für eine <strong className="text-primary">rein online geführte Sprachschule</strong> zu entscheiden. Nicht als Kompromiss, sondern als Überzeugung: Online-Unterricht bedeutet, dass meine Schülerinnen und Schüler von überall auf der Welt lernen können – ohne Pendelstress, ohne feste Klassenzimmer, ohne geografische Einschränkungen. Wer in Dubai arbeitet, in Bangalore studiert oder in Bangkok lebt und Deutsch lernen möchte, soll dieselbe Qualität erhalten wie jemand in Berlin oder Wien. Das ist für mich keine Frage des Formats, sondern eine Frage der Gerechtigkeit.
-                  </p>
-                  <p>
                     Online-Unterricht erlaubt mir außerdem, wirklich individuell zu arbeiten: Ich kann Lernende aus den unterschiedlichsten Kulturen und Sprachhintergründen begleiten, Unterrichtszeiten flexibel an Berufs- und Lebensalltag anpassen und trotzdem – oder gerade deshalb – eine echte persönliche Verbindung aufbauen. Ich habe erlebt, dass Nähe nicht von einem gemeinsamen Raum abhängt, sondern von echter Aufmerksamkeit.
                   </p>
                   <p>
@@ -128,6 +125,9 @@ export default function UeberUnsPage() {
                   </p>
                   <p>
                     Heute begleite ich Menschen aus aller Welt auf ihrem Weg zur deutschen Sprache: Fachkräfte, die in Deutschland arbeiten möchten. Pflegepersonal, das im Berufsalltag sicher kommunizieren muss. Menschen, die einfach Deutsch sprechen wollen – fließend, selbstbewusst, korrekt.
+                  </p>
+                  <p>
+                    Ich habe mich dafür entschieden, ausschließlich online Kurse anzubieten. Das ermöglicht unseren Lernenden, von überall auf der Welt an unseren Kursen teilzunehmen – ohne Pendelstress und ohne geografische Einschränkungen. Wir sind überzeugt: Jemand, der in Bangalore arbeitet, in New York studiert oder in Jakarta lebt und Deutsch lernen möchte, soll dieselbe Qualität erhalten können wie jemand in Berlin oder Wien.
                   </p>
                   <p className="font-medium text-foreground">
                     Ich freue mich, dass du hier bist. Und ich freue mich darauf, auch dich auf diesem Weg zu begleiten.
