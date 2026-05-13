@@ -1,19 +1,32 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import AppLogo from '@/components/ui/AppLogo';
 
+const kursSubLinks = [
+  { label: 'Alle Kurse', href: '/kurse' },
+  { label: 'Sprachkurse A2–C1', href: '/kurse/a2-c1' },
+  { label: 'Konversation', href: '/kurse/konversation' },
+  { label: 'Prüfungsvorbereitung', href: '/kurse/prufungsvorbereitung' },
+];
+
 const navLinks = [
-  { label: 'Kurse', href: '/#kurse' },
-  { label: 'Preise', href: '/#preise' },
-  { label: 'Kontakt', href: '/kontakt' },
-  { label: 'Impressum', href: '/impressum' },
+  { label: 'Kurse', href: '/kurse', hasDropdown: true },
+  { label: 'Preise', href: '/preise', hasDropdown: false },
+  { label: 'FAQ', href: '/faq', hasDropdown: false },
+  { label: 'Karriere', href: '/karriere', hasDropdown: false },
+  { label: 'Kontakt', href: '/kontakt', hasDropdown: false },
 ];
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [kursDropdownOpen, setKursDropdownOpen] = useState(false);
+  const [mobileKursOpen, setMobileKursOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40);
@@ -30,7 +43,22 @@ export default function Header() {
     return () => { document.body.style.overflow = ''; };
   }, [menuOpen]);
 
-  const handleNavClick = () => setMenuOpen(false);
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setKursDropdownOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleNavClick = () => {
+    setMenuOpen(false);
+    setMobileKursOpen(false);
+  };
+
+  const isActive = (href: string) => pathname === href || pathname?.startsWith(href + '/');
 
   return (
     <>
@@ -60,19 +88,70 @@ export default function Header() {
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex items-center gap-1">
-              {navLinks?.map((link) => (
-                <Link
-                  key={link?.href}
-                  href={link?.href}
-                  className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 hover-underline ${
-                    scrolled
-                      ? 'text-foreground hover:text-primary hover:bg-muted'
-                      : 'text-primary hover:text-accent hover:bg-white/20'
-                  }`}
-                >
-                  {link?.label}
-                </Link>
-              ))}
+              {navLinks?.map((link) => {
+                if (link.hasDropdown) {
+                  return (
+                    <div key={link.href} className="relative" ref={dropdownRef}>
+                      <button
+                        onClick={() => setKursDropdownOpen(!kursDropdownOpen)}
+                        className={`flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 hover-underline ${
+                          isActive(link.href)
+                            ? 'text-primary bg-muted'
+                            : scrolled
+                            ? 'text-foreground hover:text-primary hover:bg-muted'
+                            : 'text-primary hover:text-accent hover:bg-white/20'
+                        }`}
+                      >
+                        {link.label}
+                        <svg
+                          width="12"
+                          height="12"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className={`transition-transform duration-200 ${kursDropdownOpen ? 'rotate-180' : ''}`}
+                        >
+                          <path d="M6 9l6 6 6-6" />
+                        </svg>
+                      </button>
+                      {kursDropdownOpen && (
+                        <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-2xl shadow-xl border border-border overflow-hidden z-50">
+                          {kursSubLinks.map((sub) => (
+                            <Link
+                              key={sub.href}
+                              href={sub.href}
+                              onClick={() => setKursDropdownOpen(false)}
+                              className={`flex items-center px-4 py-3 text-sm font-medium transition-colors hover:bg-muted hover:text-primary ${
+                                pathname === sub.href ? 'text-primary bg-muted/60' : 'text-foreground'
+                              }`}
+                            >
+                              {sub.label}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                }
+                return (
+                  <Link
+                    key={link?.href}
+                    href={link?.href}
+                    className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 hover-underline ${
+                      isActive(link.href)
+                        ? 'text-primary bg-muted'
+                        : scrolled
+                        ? 'text-foreground hover:text-primary hover:bg-muted'
+                        : 'text-primary hover:text-accent hover:bg-white/20'
+                    }`}
+                  >
+                    {link?.label}
+                  </Link>
+                );
+              })}
             </nav>
 
             {/* Desktop CTA */}
@@ -113,15 +192,53 @@ export default function Header() {
           </div>
         </div>
       </header>
+
       {/* Mobile Menu Overlay */}
       <div
         className={`fixed inset-0 z-40 md:hidden transition-all duration-500 mobile-menu-overlay bg-white/95 ${
           menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
       >
-        <div className="flex flex-col h-full pt-24 px-6 pb-10">
-          <nav className="flex flex-col gap-2">
-            {navLinks?.map((link, i) => (
+        <div className="flex flex-col h-full pt-24 px-6 pb-10 overflow-y-auto">
+          <nav className="flex flex-col gap-1">
+            {/* Kurse with sub-links */}
+            <div>
+              <button
+                onClick={() => setMobileKursOpen(!mobileKursOpen)}
+                className="w-full flex items-center justify-between px-4 py-4 text-xl font-semibold text-foreground hover:text-primary hover:bg-muted rounded-xl transition-all duration-300 border-b border-border/50"
+              >
+                Kurse
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className={`transition-transform duration-200 ${mobileKursOpen ? 'rotate-180' : ''}`}
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </button>
+              {mobileKursOpen && (
+                <div className="pl-4 flex flex-col gap-1 py-2">
+                  {kursSubLinks.map((sub) => (
+                    <Link
+                      key={sub.href}
+                      href={sub.href}
+                      onClick={handleNavClick}
+                      className="flex items-center px-4 py-3 text-base font-medium text-muted-foreground hover:text-primary hover:bg-muted rounded-xl transition-all duration-200"
+                    >
+                      {sub.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {navLinks.filter(l => !l.hasDropdown).map((link, i) => (
               <Link
                 key={link?.href}
                 href={link?.href}
@@ -129,12 +246,13 @@ export default function Header() {
                 className={`flex items-center px-4 py-4 text-xl font-semibold text-foreground hover:text-primary hover:bg-muted rounded-xl transition-all duration-300 border-b border-border/50 ${
                   menuOpen ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'
                 }`}
-                style={{ transitionDelay: `${i * 60}ms` }}
+                style={{ transitionDelay: `${(i + 1) * 60}ms` }}
               >
                 {link?.label}
               </Link>
             ))}
           </nav>
+
           <div className="mt-8">
             <Link
               href="/kontakt"
@@ -144,7 +262,8 @@ export default function Header() {
               Jetzt anmelden
             </Link>
           </div>
-          <div className="mt-auto">
+
+          <div className="mt-auto pt-8">
             <a
               href="https://wa.me/4915175034355"
               target="_blank"

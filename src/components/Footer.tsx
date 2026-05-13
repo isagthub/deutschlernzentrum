@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Deutsch  lernen. In  Deutschland ankommen.
+              Deutsch lernen. In Deutschland ankommen.
             </p>
             <a
               href="https://wa.me/+4915175034355"
@@ -37,9 +37,17 @@ export default function Footer() {
           {/* Right: Links */}
           <div className="flex flex-wrap gap-x-12 gap-y-6">
             <div className="flex flex-col gap-2">
-              <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-1">Navigation</span>
-              <Link href="/#kurse" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Kurse</Link>
-              <Link href="/#preise" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Preise</Link>
+              <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-1">Kurse</span>
+              <Link href="/kurse" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Alle Kurse</Link>
+              <Link href="/kurse/a2-c1" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Sprachkurse A2–C1</Link>
+              <Link href="/kurse/konversation" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Konversation</Link>
+              <Link href="/kurse/prufungsvorbereitung" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Prüfungsvorbereitung</Link>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-1">Informationen</span>
+              <Link href="/preise" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Preise</Link>
+              <Link href="/faq" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">FAQ</Link>
+              <Link href="/karriere" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Karriere</Link>
               <Link href="/kontakt" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Kontakt</Link>
             </div>
             <div className="flex flex-col gap-2">
