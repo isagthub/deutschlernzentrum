@@ -125,14 +125,6 @@ export default function UeberUnsPage() {
               {/* Quote */}
               <div className="lg:col-span-4 reveal-right">
                 <div className="sticky top-28 flex flex-col gap-6">
-                  <div className="relative rounded-3xl overflow-hidden shadow-xl aspect-[3/4]">
-                    <AppImage
-                      src="/assets/images/Profilbild_ohne-hintergrund-1778676103513.png"
-                      alt="Isabella, Gründerin des Deutschlernzentrums"
-                      fill
-                      className="object-cover object-top"
-                    />
-                  </div>
                   <div className="bg-accent/10 rounded-3xl p-6 border border-accent/20">
                     <p className="text-sm text-foreground/80 leading-relaxed italic">
                       „Sprache ist mehr als Grammatik. Sie ist Zugang – zu Menschen, zu Chancen, zu einem neuen Leben. Genau das möchte ich meinen Schülerinnen und Schülern geben."
