@@ -46,7 +46,9 @@ export default function ContactPage() {
                   Test
                 </span>
                 </div>
-
+ <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6">
+                  Hallo! Ich bin Isabella, Gründerin des Deutschlernzentrums.
+                </h1>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1] mb-5">
                   Schreib uns —<br />
                   <span className="gold-scan-text">wir freuen uns</span><br />
