@@ -69,7 +69,7 @@ export default function UeberUnsPage() {
                   Über uns
                 </span>
                 <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6">
-                  Hallo, ich bin Isabella, die Gründerin des Deutschlernzentrums.
+                  Hallo! Ich bin Isabella, Gründerin des Deutschlernzentrums.
                 </h1>
                 <p className="text-lg text-white/75 leading-relaxed">
                   Ich unterrichte Deutsch als Fremdsprache seit 2018 – mit Herzblut, mit Methode und mit dem festen Glauben, dass jeder Mensch eine Sprache lernen kann, wenn er die richtige Begleitung hat.
