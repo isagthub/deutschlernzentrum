@@ -10,7 +10,7 @@ import AppImage from '@/components/ui/AppImage';
 
 export const metadata: Metadata = {
   title: 'Sprachkurse A2–C1 | Deutschlernzentrum',
-  description: 'Strukturierter Deutschunterricht nach GER für die Niveaus A2, B1, B2 und C1. Live-Unterricht mit zertifizierten Muttersprachlerinnen.',
+  description: 'Strukturierter Deutschunterricht nach GER für die Niveaus A2, B1, B2 und C1. Live-Unterricht mit zertifizierten Muttersprachler:innen.',
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/a2-c1`,
   },

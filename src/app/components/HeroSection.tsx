@@ -87,7 +87,7 @@ export default function HeroSection() {
 
             {/* Subheadline */}
             <p className="reveal-up delay-500 text-lg md:text-xl text-muted-foreground max-w-lg leading-relaxed font-medium">
-              Live-Kurse mit zertifizierten muttersprachlichen Lehrkräften. Sprache und Kultur vereint in deinem Deutschkurs.
+              Online Kurse mit zertifizierten muttersprachlichen Lehrkräften. Sprache und Kultur vereint in deinem Deutschkurs.
             </p>
 
             {/* CTAs */}

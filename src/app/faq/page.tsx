@@ -34,11 +34,11 @@ const faqCategories = [
     items: [
       {
         q: 'Wer unterrichtet bei euch?',
-        a: 'Alle unsere Lehrkräfte sind deutsch-muttersprachlich und als Sprachlehrer:innen zertifiziert. Sie haben Erfahrung in der Jugend- und Erwachsenenlehre.',
+        a: 'Alle unsere Lehrkräfte beherrschen Deutsch auf muttersprachlichem Niveau und sind als Sprachlehrer und Sprachlehrerinnen zertifiziert. Außerdem haben sie Erfahrung in der Jugend- und Erwachsenenlehre.',
       },
       {
         q: 'Wie läuft der Unterricht ab?',
-        a: 'Der Unterricht findet 100% online und live statt – per Videokonferenz. Kein aufgezeichnetes Material, kein Selbststudium. Du lernst mit einer echten Lehrkraft.',
+        a: 'Der Unterricht findet 100% online und live statt. Du triffst dich mit deinem Lehrer oder deiner Lehrerin in einer Videokonferenz. Der Unterricht findet vollkommen live statt und du lernst mit einer echten Lehrkraft.',
       },
       {
         q: 'In welcher Sprache wird unterrichtet?',

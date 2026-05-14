@@ -29,10 +29,10 @@ export const metadata: Metadata = {
 };
 
 const values = [
-  { icon: '🌍', title: 'Muttersprachlich', desc: 'Wir arbeiten ausschließlich mit deutsch-muttersprachlichen Lehrkräften.' },
-  { icon: '🎓', title: 'Zertifiziert', desc: 'Alle Lehrkräfte sind als Sprachlehrer:innen zertifiziert.' },
-  { icon: '💻', title: '100% Online', desc: 'Unterrichte von überall – flexibel und ortsunabhängig.' },
-  { icon: '❤️', title: 'Mit Leidenschaft', desc: 'Wir suchen Menschen, die Sprache und Kultur wirklich lieben.' },
+  { icon: '🌍', title: 'Muttersprachlich', desc: 'Wir arbeiten ausschließlich mit Lehrkräften, die Deutsch auf muttersprachlichem Niveau beherrschen.' },
+  { icon: '🎓', title: 'Zertifiziert', desc: 'Alle Lehrkräfte sind als Sprachlehrkräfte zertifiziert.' },
+  { icon: '💻', title: '100% Online', desc: 'Unterrichte von überall, flexibel und ortsunabhängig.' },
+  { icon: '❤️', title: 'Mit Leidenschaft', desc: 'Wir suchen Menschen, die Spaß daran haben, unsere deutsche Sprache und Kultur zu vermitteln.' },
 ];
 
 export default function KarrierePage() {
@@ -56,7 +56,7 @@ export default function KarrierePage() {
                   <span className="text-accent">Mach den Unterschied.</span>
                 </h1>
                 <p className="text-lg text-white/70 leading-relaxed mb-8">
-                  Du bist muttersprachlich auf Deutsch und als Sprachlehrkraft zertifiziert? Dann freuen wir uns auf deine Initiativbewerbung. Wir suchen Menschen, die Sprache und Kultur mit Leidenschaft vermitteln.
+                  Du findest dich in unserer Beschreibung und unseren Anforderungen wieder? Dann freuen wir uns auf deine Initiativbewerbung! Wir sind stetig auf der Suche nach Lehrern und Lehrerinnen, die unser Team erweitern und die Sprache und Kultur mit Leidenschaft vermitteln wollen.
                 </p>
                 <a
                   href="mailto:kontakt@deutschlernzentrum.de?subject=Initiativbewerbung%20Lehrkraft"
