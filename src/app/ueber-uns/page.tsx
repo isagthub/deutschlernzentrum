@@ -99,12 +99,10 @@ export default function UeberUnsPage() {
 
               {/* Main text */}
               <div className="lg:col-span-8 reveal-left">
-                <h2 className="text-3xl md:text-4xl font-extrabold text-primary tracking-tight mb-6">
-                  Hallo, ich bin Isabella, die Gründerin des Deutschlernzentrums.
-                </h2>
+                
                 <div className="space-y-5 text-foreground/80 leading-relaxed text-base">
                   <p>
-                    Ich habe mich dafür entschieden, ausschließlich online Kurse anzubieten. Das ermöglicht unseren Lernenden, von überall auf der Welt an unseren Kursen teilzunehmen – ohne Pendelstress und ohne geografische Einschränkungen. Wir sind überzeugt: Jemand, der in Bangalore arbeitet, in New York studiert oder in Jakarta lebt und Deutsch lernen möchte, soll dieselbe Qualität erhalten können wie jemand in Berlin oder Wien.
+                    Das Deutschlernzentrum wurde mit einer klaren Vision gegründet: Deutschunterricht modern, persönlich und weltweit zugänglich zu machen. So können Menschen aus aller Welt flexibel und ohne geografische Einschränkungen mit uns Deutsch lernen. Ohne Pendelstress und ohne geografische Einschränkungen.
                   </p>
                   <p>
                     Der Online-Unterricht erlaubt uns, wirklich individuell zu arbeiten und die Unterrichtszeiten flexibel an Berufs- und Lebensalltag anzupassen und gerade deshalb eine echte persönliche Verbindung aufzubauen.
