@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const pricingPlans = [
   {
     id: 'single',
-    name: 'Einzelkurs',
+    name: 'Einzelkurs/Privatkurs',
     tagline: 'Für dich und deine Begleitung',
     price: '45',
     unit: '/ Kurseinheit (45 Min)',

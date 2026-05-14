@@ -4,7 +4,7 @@ import Link from 'next/link';
 const pricingPlans = [
   {
     id: 'single',
-    name: 'Einzelkurs',
+    name: 'Einzelkurs/Privatkurs',
     tagline: 'Für dich und deine Begleitung',
     price: '45',
     unit: '/ Kurseinheit (45Min)',
@@ -18,7 +18,7 @@ const pricingPlans = [
       'Offizielles Teilnahmezertifikat nach Levelabschluss',
       'So viele Stunden wie du brauchst, keine Mindestanzahl'
     ],
-    cta: 'Einzelkurs buchen',
+    cta: 'Privatkurs buchen',
     ctaHref: '/kontakt',
   },
   {

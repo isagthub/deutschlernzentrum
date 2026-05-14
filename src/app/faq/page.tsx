@@ -55,7 +55,7 @@ const faqCategories = [
     items: [
       {
         q: 'Was kostet ein Kurs?',
-        a: 'Der Einzelkurs kostet 45 € pro Kurseinheit (45 Min) – du darfst bis zu 2 Personen kostenlos mitbringen. Der Gruppenkurs kostet 15 € pro Person pro Kurseinheit.',
+        a: 'Der Einzelkurs/Privatkurs kostet 45 € pro Kurseinheit (45 Min) – du darfst bis zu 2 Personen kostenlos mitbringen. Der Gruppenkurs kostet 15 € pro Person pro Kurseinheit.',
       },
       {
         q: 'Gibt es eine Mindestanzahl an Stunden?',
