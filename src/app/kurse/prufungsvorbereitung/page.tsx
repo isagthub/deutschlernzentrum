@@ -34,7 +34,7 @@ const exams = [
   {
     name: 'Telc',
     fullName: 'The European Language Certificates',
-    levels: ['A2', 'B1', 'B2', 'C1'],
+    levels: ['A2', 'B1', 'B2', 'C1', 'C2'],
     color: 'border-blue-200 bg-blue-50',
     badgeColor: 'bg-blue-100 text-blue-800',
     desc: 'Telc-Zertifikate sind staatlich anerkannte Sprachzertifikate, die in Deutschland und Europa weit verbreitet sind – z. B. für Einbürgerung, Visum oder Berufsanerkennung.',
@@ -42,7 +42,7 @@ const exams = [
   {
     name: 'Goethe',
     fullName: 'Goethe-Institut Zertifikate',
-    levels: ['A2', 'B1', 'B2', 'C1'],
+    levels: ['A2', 'B1', 'B2', 'C1', 'C2'],
     color: 'border-amber-200 bg-amber-50',
     badgeColor: 'bg-amber-100 text-amber-800',
     desc: 'Goethe-Zertifikate sind weltweit anerkannte Deutschprüfungen des Goethe-Instituts – ideal für Studium, Arbeit und Einwanderung.',
@@ -88,7 +88,7 @@ export default function PrufungsvorbereitungPage() {
                 <div className="flex flex-wrap gap-3 mb-8">
                   <span className="px-4 py-2 rounded-full text-sm font-bold bg-blue-100 text-blue-800">Telc</span>
                   <span className="px-4 py-2 rounded-full text-sm font-bold bg-amber-100 text-amber-800">Goethe</span>
-                  <span className="px-4 py-2 rounded-full text-sm font-bold bg-primary/10 text-primary">A2–C1</span>
+                  <span className="px-4 py-2 rounded-full text-sm font-bold bg-primary/10 text-primary">A2–C2</span>
                 </div>
                 <div className="flex flex-wrap gap-4">
                   <Link href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3.5 bg-primary text-white font-bold rounded-full hover:bg-secondary transition-all duration-300 hover:-translate-y-0.5 shadow-lg shadow-primary/20">

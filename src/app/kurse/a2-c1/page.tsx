@@ -9,15 +9,15 @@ import ScrollRevealInit from '@/app/components/ScrollRevealInit';
 import AppImage from '@/components/ui/AppImage';
 
 export const metadata: Metadata = {
-  title: 'Sprachkurse A2–C1 | Deutschlernzentrum',
-  description: 'Strukturierter Deutschunterricht nach GER für die Niveaus A2, B1, B2 und C1. Live-Unterricht mit zertifizierten Muttersprachler:innen.',
+  title: 'Sprachkurse A2–C2 | Deutschlernzentrum',
+  description: 'Strukturierter Deutschunterricht nach GER für die Niveaus A2, B1, B2, C1 und C2. Live-Unterricht mit zertifizierten Muttersprachler:innen.',
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/a2-c1`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/a2-c2`,
   },
   openGraph: {
-    title: 'Sprachkurse A2–C1 | Deutschlernzentrum',
+    title: 'Sprachkurse A2–C2 | Deutschlernzentrum',
     description: 'Strukturierter Deutschunterricht nach GER. Live-Unterricht mit zertifizierten Lehrkräften.',
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/a2-c1`,
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/a2-c2`,
     type: 'website',
     images: [
       {
@@ -32,9 +32,10 @@ export const metadata: Metadata = {
 
 const levels = [
   { code: 'A2', label: 'Grundlegende Kenntnisse', color: 'bg-blue-100 text-blue-800', desc: 'Du kannst einfache Sätze verstehen und dich in vertrauten Situationen verständigen.' },
-  { code: 'B1', label: 'Fortgeschrittene Grundkenntnisse', color: 'bg-teal-100 text-teal-800', desc: 'Du verstehst die Hauptpunkte klarer Standardsprache und kannst dich zusammenhängend ausdrücken.' },
-  { code: 'B2', label: 'Selbstständige Verwendung', color: 'bg-amber-100 text-amber-800', desc: 'Du kannst komplexe Texte verstehen und dich spontan und fließend verständigen.' },
-  { code: 'C1', label: 'Fachkundige Sprachkenntnisse', color: 'bg-orange-100 text-orange-800', desc: 'Du kannst anspruchsvolle Texte verstehen und dich spontan, fließend und präzise ausdrücken.' },
+  { code: 'B1', label: 'Fortgeschrittene Grundkenntnisse', color: 'bg-teal-100 text-teal-800', desc: 'Du verstehst die Hauptpunkte klarer Standardsprache und kannst über vertraute Themen sprechen.' },
+  { code: 'B2', label: 'Selbstständige Verwendung', color: 'bg-amber-100 text-amber-800', desc: 'Du verstehst komplexere Inhalte und kannst dich spontan und fließend verständigen.' },
+  { code: 'C1', label: 'Fachkundige Sprachkenntnisse', color: 'bg-orange-100 text-orange-800', desc: 'Du verstehst anspruchsvolle Texte und kannst dich spontan, fließend und präzise ausdrücken.' },
+  { code: 'C2', label: 'Annähernd muttersprachliche Sprachkenntnisse', color: 'bg-red-100 text-red-800', desc: 'Du verstehst praktisch alles, auch fachspezifisches, mühelos und kannst dich auch in komplexen Situationen präzise und nuanciert ausdrücken.' }];
 ];
 
 const features = [
@@ -44,7 +45,7 @@ const features = [
   { icon: '🏅', title: 'Offizielles Zertifikat', desc: 'Nach Abschluss jedes Levels erhältst du ein Teilnahmezertifikat von uns als Sprachschule.' },
 ];
 
-export default function A2C1Page() {
+export default function A2C2Page() {
   return (
     <>
       <Header />
@@ -56,7 +57,7 @@ export default function A2C1Page() {
             <div className="flex items-center gap-2 text-sm text-muted-foreground mb-6 reveal-up">
               <Link href="/kurse" className="hover:text-primary transition-colors">Kurse</Link>
               <span>/</span>
-              <span className="text-foreground font-medium">Sprachkurse A2–C1</span>
+              <span className="text-foreground font-medium">Sprachkurse A2–C2</span>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="reveal-left">
@@ -66,7 +67,7 @@ export default function A2C1Page() {
                 </span>
                 <h1 className="text-4xl md:text-5xl font-extrabold text-primary tracking-tight leading-tight mb-6">
                   Sprachkurse<br />
-                  <span className="text-accent">A2 bis C1</span>
+                  <span className="text-accent">A2 bis C2</span>
                 </h1>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                   Strukturierter Sprachunterricht nach dem Gemeinsamen Europäischen Referenzrahmen. Lerne Grammatik, Wortschatz und Aussprache auf Deutsch – von Anfang an. Eine Niveaustufe umfasst erfahrungsgemäß ca. 80 Unterrichtseinheiten à 45 Minuten.

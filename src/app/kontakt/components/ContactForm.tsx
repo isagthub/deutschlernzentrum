@@ -17,6 +17,7 @@ const courseOptions = [
   { value: 'sprachkurs-b1', label: 'Sprachkurs B1' },
   { value: 'sprachkurs-b2', label: 'Sprachkurs B2' },
   { value: 'sprachkurs-c1', label: 'Sprachkurs C1' },
+  { value: 'sprachkurs-c2', label: 'Sprachkurs C2' },
   { value: 'konversation', label: 'Konversationskurs' },
   { value: 'einzelkurs', label: 'Einzelkurs (privat)' },
   { value: 'beratung', label: 'Erstberatung / allgemeine Frage' },

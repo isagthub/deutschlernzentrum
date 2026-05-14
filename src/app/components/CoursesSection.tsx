@@ -6,7 +6,8 @@ const levels = [
 { code: 'A2', label: 'Grundlegende Kenntnisse', color: 'bg-blue-100 text-blue-800' },
 { code: 'B1', label: 'Fortgeschrittene Grundkenntnisse', color: 'bg-teal-100 text-teal-800' },
 { code: 'B2', label: 'Selbstständige Verwendung', color: 'bg-amber-100 text-amber-800' },
-{ code: 'C1', label: 'Fachkundige Sprachkenntnisse', color: 'bg-orange-100 text-orange-800' }];
+{ code: 'C1', label: 'Fachkundige Sprachkenntnisse', color: 'bg-orange-100 text-orange-800' },
+{ code: 'C2', label: 'Annähernd muttersprachliche Sprachkenntnisse', color: 'bg-red-100 text-red-800' }];
 
 
 const courseFeatures = [
@@ -69,7 +70,7 @@ export default function CoursesSection() {
             </div>
 
             <div className="p-7 flex flex-col flex-1">
-              <h3 className="text-2xl font-extrabold text-primary mb-2">Sprachkurse A2–C1</h3>
+              <h3 className="text-2xl font-extrabold text-primary mb-2">Sprachkurse A2–C2</h3>
               <p className="text-muted-foreground mb-5 leading-relaxed">
                 Strukturierter Sprachunterricht nach dem Gemeinsamen Europäischen Referenzrahmen. Lerne Grammatik, Wortschatz und Aussprache auf Deutsch, von Anfang an.
                 Eine Niveaustufe umfasst erfahrungsgemäß ca. 80 Unterrichtseinheiten (je 45 Min).
@@ -77,7 +78,7 @@ export default function CoursesSection() {
 
               {/* Level badges */}
               {/* BENTO GRID AUDIT for level badges: 4 badges inline
-                   Row 1: [A2] [B1] [B2] [C1] — all inline, no grid, 4/4 ✓ */}
+                   Row 1: [A2] [B1] [B2] [C1] [C2]— all inline, no grid, 4/4 ✓ */}
               <div className="flex flex-wrap gap-2 mb-6">
                 {levels?.map((level) =>
                 <span key={level?.code} className={`px-3 py-1 rounded-full text-xs font-bold ${level?.color}`}>

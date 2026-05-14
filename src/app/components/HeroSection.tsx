@@ -119,7 +119,7 @@ export default function HeroSection() {
             {/* Stats row */}
             <div className="reveal-up delay-700 flex flex-wrap gap-6 pt-4 border-t border-border">
               {[
-              { value: 'A2–C1', label: 'GER-Niveaus' },
+              { value: 'A2–C2', label: 'GER-Niveaus' },
               { value: '100%', label: 'Muttersprachler:innen' },
               { value: 'Live', label: 'Unterricht online' }]?.
               map((stat) =>

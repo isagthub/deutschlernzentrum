@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/kurse/a2-c1`,
+      url: `${baseUrl}/kurse/a2-c2`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,

@@ -13,7 +13,7 @@ const faqCategories = [
     items: [
       {
         q: 'Welche Kurse bietet das Deutschlernzentrum an?',
-        a: 'Wir bieten drei Kursarten an: Sprachkurse A2–C1 nach GER, Konversationskurse für alle Niveaus sowie Prüfungsvorbereitungskurse für Telc- und Goethe-Zertifikate.',
+        a: 'Wir bieten drei Kursarten an: Sprachkurse A2–C2 nach GER, Konversationskurse für alle Niveaus sowie Prüfungsvorbereitungskurse für Telc- und Goethe-Zertifikate.',
       },
       {
         q: 'Für wen sind die Kurse geeignet?',
@@ -84,7 +84,7 @@ const faqCategories = [
       },
       {
         q: 'Welche Niveaus werden für Telc und Goethe angeboten?',
-        a: 'Wir bereiten auf die Niveaus B1 bis C1 vor. Für spezifische Anfragen (z. B. A2 für Einbürgerung) kontaktiere uns bitte direkt.',
+        a: 'Wir bereiten auf die Niveaus A2 bis C2 vor. Für spezifische Anfragen (z. B. A2 für Einbürgerung) kontaktiere uns bitte direkt.',
       },
     ],
   },

@@ -7,7 +7,7 @@ import AppLogo from '@/components/ui/AppLogo';
 
 const kursSubLinks = [
   { label: 'Alle Kurse', href: '/kurse' },
-  { label: 'Sprachkurse A2–C1', href: '/kurse/a2-c1' },
+  { label: 'Sprachkurse A2–C2', href: '/kurse/a2-c2' },
   { label: 'Konversation', href: '/kurse/konversation' },
   { label: 'Prüfungsvorbereitung', href: '/kurse/prufungsvorbereitung' },
 ];

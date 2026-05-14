@@ -12,7 +12,7 @@ import ScrollRevealInit from '@/app/components/ScrollRevealInit';
 
 export const metadata: Metadata = {
   title: 'Deutschlernzentrum: Online Deutschkurse',
-  description: 'Online Deutschkurse mit zertifizierten und muttersprachlichen Lehrkräften. Sprache + Kultur vereint. Kurse A2–C1, Prüfungsvorbereitung und Konversation. Deutsch lernen und ankommen.',
+  description: 'Online Deutschkurse mit zertifizierten und muttersprachlichen Lehrkräften. Sprache + Kultur vereint. Kurse A2–C2, Prüfungsvorbereitung und Konversation. Deutsch lernen und ankommen.',
   alternates: {
     canonical: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
   },
@@ -34,10 +34,10 @@ export const metadata: Metadata = {
 
 const courseTeaser = [
   {
-    href: '/kurse/a2-c1',
-    title: 'Sprachkurse A2–C1',
+    href: '/kurse/a2-c2',
+    title: 'Sprachkurse A2–C2',
     desc: 'Strukturierter Unterricht nach GER – Grammatik, Wortschatz, Aussprache.',
-    tags: ['A2', 'B1', 'B2', 'C1'],
+    tags: ['A2', 'B1', 'B2', 'C1', 'C2'],
     tagStyle: 'bg-primary/10 text-primary',
     style: 'bg-white border-border',
     titleStyle: 'text-primary',
@@ -145,7 +145,7 @@ export default function HomePage() {
               Online Deutsch lernen mit dem Deutschlernzentrum
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Das Deutschlernzentrum bietet Online Deutschkurse für dein Niveau A2–C1.
+              Das Deutschlernzentrum bietet Online Deutschkurse für dein Niveau A2–C2.
               Wir helfen dir bei der Vorbereitung auf Goethe-Zertifikate,
               Telc-Prüfungen und dem sicheren Deutschsprechen im Alltag.
             </p>

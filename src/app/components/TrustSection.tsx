@@ -123,7 +123,7 @@ export default function TrustSection() {
                 </div>
               </div>
               <div className="flex gap-1 mt-2">
-                {['A2', 'B1', 'B2', 'C1']?.map((l) =>
+                {['A2', 'B1', 'B2', 'C1', 'C2']?.map((l) =>
                 <span key={l} className="flex-1 text-center py-1 bg-primary/8 text-primary text-xs font-bold rounded-lg">
                     {l}
                   </span>

@@ -10,13 +10,13 @@ import AppImage from '@/components/ui/AppImage';
 
 export const metadata: Metadata = {
   title: 'Kurse | Deutschlernzentrum',
-  description: 'Entdecke unsere Deutsch-Sprachkurse: Sprachkurse A2–C1, Konversationskurse und Prüfungsvorbereitung für Telc und Goethe.',
+  description: 'Entdecke unsere Deutsch-Sprachkurse: Sprachkurse A2–C2, Konversationskurse und Prüfungsvorbereitung für Telc und Goethe.',
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse`,
   },
   openGraph: {
     title: 'Kurse | Deutschlernzentrum',
-    description: 'Sprachkurse A2–C1, Konversation und Prüfungsvorbereitung.',
+    description: 'Sprachkurse A2–C2, Konversation und Prüfungsvorbereitung.',
     url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse`,
     type: 'website',
     images: [
@@ -32,15 +32,15 @@ export const metadata: Metadata = {
 
 const courses = [
   {
-    href: '/kurse/a2-c1',
+    href: '/kurse/a2-c2',
     image: '/assets/images/Frau-Laptop.png',
     alt: 'Frau lernt Deutsch am Laptop',
     badge: 'Klassische Sprachkurse',
     badgeColor: 'bg-white/95 text-primary',
-    title: 'Sprachkurse A2–C1',
+    title: 'Sprachkurse A2–C2',
     description:
       'Strukturierter Sprachunterricht nach dem Gemeinsamen Europäischen Referenzrahmen. Grammatik, Wortschatz und Aussprache – von Anfang an auf Deutsch.',
-    tags: ['A2', 'B1', 'B2', 'C1'],
+    tags: ['A2', 'B1', 'B2', 'C1', 'C2'],
     tagStyle: 'bg-primary/10 text-primary',
     cta: 'Mehr erfahren',
     cardStyle: 'bg-white border-border',
@@ -74,7 +74,7 @@ const courses = [
     title: 'Prüfungsvorbereitung',
     description:
       'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatsprüfungen. Wir trainieren Prüfungsformat, Strategien und Sprachkompetenz für deinen Erfolg.',
-    tags: ['Telc', 'Goethe', 'A2–C1'],
+    tags: ['Telc', 'Goethe', 'A2–C2'],
     tagStyle: 'bg-accent/10 text-accent',
     cta: 'Mehr erfahren',
     cardStyle: 'bg-white border-border',
