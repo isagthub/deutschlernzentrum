@@ -73,7 +73,7 @@ const pricingPlans = [
 
 const faqs = [
   { q: 'Gibt es eine Mindestanzahl an Stunden?', a: 'Nein. Du buchst so viele Stunden, wie du brauchst – ohne Mindestanzahl oder Vertragsbindung.' },
-  { q: 'Was ist im Preis enthalten?', a: 'Alle Preise beinhalten Kursmaterial, Live-Unterricht mit einer zertifizierten Lehrkraft und das Teilnahmezertifikat nach Levelabschluss.' },
+  { q: 'Was ist im Preis enthalten?', a: 'Alle Preise beinhaltenden online Unterricht mit einer zertifizierten Lehrkraft und das Teilnahmezertifikat nach Levelabschluss.' },
   { q: 'Kann ich Kurse kombinieren?', a: 'Ja. Du kannst z. B. einen Sprachkurs mit einem Konversationskurs kombinieren. Sprich uns einfach an.' },
   { q: 'Wie bezahle ich?', a: 'Die Zahlungsmodalitäten besprechen wir individuell nach deiner Kursanfrage.' },
 ];
@@ -154,7 +154,7 @@ export default function PreisePage() {
               ))}
             </div>
             <p className="text-center text-sm text-muted-foreground mt-8 reveal-up">
-              Alle Preise inkl. Kursmaterial. Fragen? Schreib uns auf{' '}
+              Fragen? Schreib uns auf{' '}
               <a href="https://wa.me/4915175034355" className="text-primary font-semibold hover:text-accent transition-colors">WhatsApp</a>{' '}
               oder per{' '}
               <a href="mailto:kontakt@deutschlernzentrum.de" className="text-primary font-semibold hover:text-accent transition-colors">E-Mail</a>.

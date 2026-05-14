@@ -63,11 +63,11 @@ const faqCategories = [
       },
       {
         q: 'Was ist im Preis enthalten?',
-        a: 'Alle Preise beinhalten Kursmaterial, Live-Unterricht mit einer zertifizierten Lehrkraft und das Teilnahmezertifikat nach Levelabschluss.',
+        a: 'Alle Preise beinhalten den online Unterricht mit einer zertifizierten Lehrkraft und das Teilnahmezertifikat nach Levelabschluss.',
       },
       {
         q: 'Wie melde ich mich an?',
-        a: 'Schreib uns über das Kontaktformular, per E-Mail oder WhatsApp. Wir melden uns schnell und besprechen alles Weitere mit dir.',
+        a: 'Schreib uns über das Kontaktformular, per E-Mail oder WhatsApp. Wir melden uns schnellstmöglich und besprechen alles Weitere mit dir.',
       },
     ],
   },

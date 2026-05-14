@@ -69,8 +69,8 @@ export default function ContactPage() {
        
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1] mb-5">
-                  Schreib uns —<br />
-                  <span className="gold-scan-text">wir freuen uns</span><br />
+                  Schreib uns!<br />
+                  <span className="gold-scan-text">Wir freuen uns</span><br />
                   auf dich.
                 </h1>
                 <p className="text-lg text-white/65 leading-relaxed max-w-lg">

@@ -142,7 +142,7 @@ export default function PricingSection() {
 
         {/* Bottom note */}
         <p className="text-center text-sm text-muted-foreground mt-8 reveal-up">
-          Alle Preise inkl. Kursmaterial. Fragen? Schreib uns auf{' '}
+          Fragen? Schreib uns auf{' '}
           <a href="https://wa.me/4915175034355" className="text-primary font-semibold hover:text-accent transition-colors">
             WhatsApp
           </a>{' '}

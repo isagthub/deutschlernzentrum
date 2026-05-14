@@ -168,7 +168,7 @@ export default function UeberUnsPage() {
               Bereit, Deutsch zu lernen?
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8 max-w-xl mx-auto">
-              Schreib uns – wir finden gemeinsam den Kurs, der zu dir passt. Unverbindlich und persönlich.
+              Schreib uns! Wir finden gemeinsam den Kurs, der zu dir passt. Unverbindlich und persönlich.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
