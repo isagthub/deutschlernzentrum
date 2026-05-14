@@ -35,7 +35,7 @@ const levels = [
   { code: 'B1', label: 'Fortgeschrittene Grundkenntnisse', color: 'bg-teal-100 text-teal-800', desc: 'Du verstehst die Hauptpunkte klarer Standardsprache und kannst über vertraute Themen sprechen.' },
   { code: 'B2', label: 'Selbstständige Verwendung', color: 'bg-amber-100 text-amber-800', desc: 'Du verstehst komplexere Inhalte und kannst dich spontan und fließend verständigen.' },
   { code: 'C1', label: 'Fachkundige Sprachkenntnisse', color: 'bg-orange-100 text-orange-800', desc: 'Du verstehst anspruchsvolle Texte und kannst dich spontan, fließend und präzise ausdrücken.' },
-  { code: 'C2', label: 'Annähernd muttersprachliche Sprachkenntnisse', color: 'bg-red-100 text-red-800', desc: 'Du verstehst praktisch alles, auch fachspezifisches, mühelos und kannst dich auch in komplexen Situationen präzise und nuanciert ausdrücken.' }];
+  { code: 'C2', label: 'Annähernd muttersprachliche Sprachkenntnisse', color: 'bg-red-100 text-red-800', desc: 'Du verstehst praktisch alles, auch fachspezifisches, mühelos und kannst dich auch in komplexen Situationen präzise und nuanciert ausdrücken.' }
 ];
 
 const features = [
