@@ -53,7 +53,7 @@ const courseTeaser = [
     descStyle: 'text-white/70',
   },
   {
-    href: '/kurse/prufungsvorbereitung',
+    href: '/kurse/pruefungsvorbereitung',
     title: 'Prüfungsvorbereitung',
     desc: 'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatssprüfungen.',
     tags: ['Telc', 'Goethe'],

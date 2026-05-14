@@ -66,7 +66,7 @@ const courses = [
     ctaStyle: 'bg-accent text-white hover:bg-amber-600 shadow-accent/30',
   },
   {
-    href: '/kurse/prufungsvorbereitung',
+    href: '/kurse/pruefungsvorbereitung',
     image: '/assets/images/Qualitaetskontrolle.png',
     alt: 'Lernende bereiten sich auf eine Deutschprüfung vor',
     badge: 'Prüfungsvorbereitung',

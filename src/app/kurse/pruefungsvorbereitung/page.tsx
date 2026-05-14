@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   title: 'Prüfungsvorbereitung Telc & Goethe | Deutschlernzentrum',
   description: 'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatssprüfungen. Lerne Prüfungsstrategien, übe Prüfungsformate und bestehe deine Deutschprüfung.',
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/prufungsvorbereitung`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/pruefungsvorbereitung`,
   },
   openGraph: {
     title: 'Prüfungsvorbereitung Telc & Goethe | Deutschlernzentrum',
     description: 'Gezielte Vorbereitung auf Telc- und Goethe-Zertifikatssprüfungen.',
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/prufungsvorbereitung`,
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/kurse/pruefungsvorbereitung`,
     type: 'website',
     images: [
       {
@@ -58,7 +58,7 @@ const preparation = [
   { icon: '📊', title: 'Individuelle Schwächen angehen', desc: 'Wir identifizieren deine Lücken und arbeiten gezielt daran.' },
 ];
 
-export default function PrufungsvorbereitungPage() {
+export default function PruefungsvorbereitungPage() {
   return (
     <>
       <Header />

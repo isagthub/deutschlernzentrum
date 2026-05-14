@@ -9,7 +9,7 @@ const kursSubLinks = [
   { label: 'Alle Kurse', href: '/kurse' },
   { label: 'Sprachkurse A2–C2', href: '/kurse/a2-c2' },
   { label: 'Konversation', href: '/kurse/konversation' },
-  { label: 'Prüfungsvorbereitung', href: '/kurse/prufungsvorbereitung' },
+  { label: 'Prüfungsvorbereitung', href: '/kurse/pruefungsvorbereitung' },
 ];
 
 const navLinks = [

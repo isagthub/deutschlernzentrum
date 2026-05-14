@@ -41,7 +41,7 @@ export default function Footer() {
               <Link href="/kurse" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Alle Kurse</Link>
               <Link href="/kurse/a2-c2" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Sprachkurse A2–C2</Link>
               <Link href="/kurse/konversation" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Konversation</Link>
-              <Link href="/kurse/prufungsvorbereitung" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Prüfungsvorbereitung</Link>
+              <Link href="/kurse/pruefungsvorbereitung" className="text-sm text-foreground hover:text-primary transition-colors font-medium hover-underline">Prüfungsvorbereitung</Link>
             </div>
             <div className="flex flex-col gap-2">
               <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-1">Informationen</span>
