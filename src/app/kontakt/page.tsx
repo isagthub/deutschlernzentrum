@@ -178,12 +178,16 @@ export default function ContactPage() {
                   <ul className="space-y-4 relative z-10">
                     {[
                       { icon: '/icons/Uhr.svg', text: 'Antwort innerhalb von 24 Stunden' },
-                      { icon: '🎯', text: 'Persönliche Kursempfehlung für dein Niveau' },
-                      { icon: '💬', text: 'Kostenlose Erstberatung ohne Verpflichtung' },
-                      { icon: '🌍', text: 'Unterricht 100 % online – von überall' },
+                      { icon: '/icons/Ziel.svg', text: 'Persönliche Kursempfehlung für dein Niveau' },
+                      { icon: '/icons/Sprechblase.svg', text: 'Kostenlose Erstberatung ohne Verpflichtung' },
+                      { icon: '/icons/Weltkugel.svg', text: 'Unterricht 100 % online – von überall' },
                     ].map((item) => (
                       <li key={item.text} className="flex items-start gap-3">
-                        <span className="text-base flex-shrink-0 mt-0.5">{item.icon}</span>
+                        <img
+  src={item.icon}
+  className="w-5 h-5 hover:scale-110 transition"
+  alt=""
+/>
                         <span className="text-sm text-white/80 leading-snug">{item.text}</span>
                       </li>
                     ))}
