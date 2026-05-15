@@ -50,12 +50,12 @@ const exams = [
 ];
 
 const preparation = [
-  { icon: '📝', title: 'Prüfungsformat kennenlernen', desc: 'Wir erklären den genauen Aufbau der Prüfung: Hören, Lesen, Schreiben, Sprechen.' },
-  { icon: '🎯', title: 'Gezielte Strategien', desc: 'Du lernst, wie du Aufgaben effizient löst und keine Punkte verschenkst.' },
-  { icon: '🔁', title: 'Übungsaufgaben & Musterprüfungen', desc: 'Wir üben mit echten Prüfungsaufgaben und simulieren die Prüfungssituation.' },
-  { icon: '🗣️', title: 'Mündliche Prüfung trainieren', desc: 'Besondere Aufmerksamkeit für den Sprechteil – oft der schwierigste Teil.' },
-  { icon: '✍️', title: 'Schreiben üben', desc: 'Briefe, E-Mails und Texte nach Prüfungsstandard verfassen und korrigieren.' },
-  { icon: '📊', title: 'Individuelle Schwächen angehen', desc: 'Wir identifizieren deine Lücken und arbeiten gezielt daran.' },
+  { icon: '/icons/Notizen.svg', title: 'Prüfungsformat kennenlernen', desc: 'Wir erklären den genauen Aufbau der Prüfung: Hören, Lesen, Schreiben, Sprechen.' },
+  { icon: '/icons/Ziel.svg', title: 'Gezielte Strategien', desc: 'Du lernst, wie du Aufgaben effizient löst und keine Punkte verschenkst.' },
+  { icon: '/icons/Wiederholen.svg', title: 'Übungsaufgaben & Musterprüfungen', desc: 'Wir üben mit echten Prüfungsaufgaben und simulieren die Prüfungssituation.' },
+  { icon: '/icons/Sprechen.svg', title: 'Mündliche Prüfung trainieren', desc: 'Besondere Aufmerksamkeit für den Sprechteil – oft der schwierigste Teil.' },
+  { icon: '/icons/Schreiben.svg', title: 'Schreiben üben', desc: 'Briefe, E-Mails und Texte nach Prüfungsstandard verfassen und korrigieren.' },
+  { icon: '/icons/Lupe.svg', title: 'Individuelle Schwächen angehen', desc: 'Wir identifizieren deine Lücken und arbeiten gezielt daran.' },
 ];
 
 export default function PruefungsvorbereitungPage() {
@@ -145,7 +145,13 @@ export default function PruefungsvorbereitungPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children">
               {preparation?.map((item) => (
                 <div key={item?.title} className="reveal-up bg-white rounded-2xl p-6 border border-border shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5">
-                  <div className="text-3xl mb-4">{item?.icon}</div>
+                  <div className="mb-4 flex justify-center">
+  <img
+    src={item?.icon}
+    alt={item?.title}
+    className="w-10 h-10 transition-transform hover:scale-110"
+  />
+</div>
                   <h3 className="text-sm font-bold text-foreground mb-2">{item?.title}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">{item?.desc}</p>
                 </div>
