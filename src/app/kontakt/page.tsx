@@ -177,7 +177,7 @@ export default function ContactPage() {
                   <h3 className="text-base font-bold mb-5 relative z-10">Was dich erwartet</h3>
                   <ul className="space-y-4 relative z-10">
                     {[
-                      { icon: '⚡', text: 'Antwort innerhalb von 24 Stunden' },
+                      { icon: '/icons/Uhr.svg', text: 'Antwort innerhalb von 24 Stunden' },
                       { icon: '🎯', text: 'Persönliche Kursempfehlung für dein Niveau' },
                       { icon: '💬', text: 'Kostenlose Erstberatung ohne Verpflichtung' },
                       { icon: '🌍', text: 'Unterricht 100 % online – von überall' },
