@@ -4,8 +4,8 @@ import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import AppImage from '@/components/ui/AppImage';
 
-const heroWords = ['Deutsch', {' '}, 'lernen.'];
-const heroWords2 = ['In', {' '}, 'Deutschland'];
+const heroWords = ['Deutsch', '\u00A0', 'lernen.'];
+const heroWords2 = ['In', '\u00A0', 'Deutschland'];
 const heroWords3 = ['ankommen.'];
 
 export default function HeroSection() {
