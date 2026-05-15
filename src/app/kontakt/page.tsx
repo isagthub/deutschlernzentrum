@@ -72,12 +72,6 @@ export default function ContactPage() {
       Zurück zur Startseite
     </a>    
 
-                <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-accent/20 border border-accent/30 rounded-full mb-5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-                  <span className="text-xs font-bold text-accent uppercase tracking-widest">Kontakt</span>
-       </div>
-       
-
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1] mb-5">
                   Schreib uns!<br />
                   <span className="gold-scan-text">Wir freuen uns</span><br />
