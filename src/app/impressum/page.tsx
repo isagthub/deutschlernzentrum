@@ -30,15 +30,30 @@ export default function ImpressumPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-background">
-        {/* Hero */}
-        <section className="pt-28 md:pt-36 pb-12 bg-primary relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-secondary/30 rounded-full blur-[100px] pointer-events-none" />
-          <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-               <a
-      href="/"
-      className="inline-flex items-center gap-3 mb-8 px-6 py-3 bg-white text-primary font-bold rounded-full shadow-lg hover:scale-105 transition-transform"
-    >
+      <main className="pt-20">
+
+        {/* ── Hero ─────────────────────────────────────────────── */}
+         <section className="py-16 md:py-24 bg-primary relative overflow-hidden">
+          {/* Decorative blobs */}
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary/40 rounded-full blur-[120px] pointer-events-none" />
+          <div className="absolute bottom-0 left-1/4 w-[350px] h-[350px] bg-accent/20 rounded-full blur-[90px] pointer-events-none" />
+          {/* Dot grid */}
+          <div
+           
+            style={{
+              backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px)',
+              backgroundSize: '32px 32px',
+            }}
+          />
+     
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <a
+        href="/"
+        className="inline-flex items-center gap-3 mb-8 px-6 py-3 bg-white text-primary font-bold rounded-full shadow-lg hover:scale-105 transition-transform"
+      >
+
+        
       <svg
         width="18"
         height="18"
