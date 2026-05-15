@@ -113,7 +113,7 @@ export default function KonversationPage() {
   <img
     src={topic?.icon}
     alt={topic?.title}
-    className="w-8 h-8 transition-transform hover:scale-110"
+    className="w-10 h-10 transition-transform hover:scale-110"
   /></div>
                   <h3 className="text-base font-bold text-foreground mb-2">{topic?.title}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">{topic?.desc}</p>
