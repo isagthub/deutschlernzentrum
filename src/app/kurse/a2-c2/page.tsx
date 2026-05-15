@@ -39,10 +39,10 @@ const levels = [
 ];
 
 const features = [
-  { icon: '📋', title: 'Klarer Lehrplan nach GER', desc: 'Jede Niveaustufe folgt dem Gemeinsamen Europäischen Referenzrahmen für Sprachen.' },
-  { icon: '🎥', title: 'Live-Unterricht', desc: 'Echter Unterricht mit einer Lehrkraft – keine aufgezeichneten Videos, kein Selbststudium.' },
-  { icon: '✍️', title: 'Interaktive Übungen', desc: 'Grammatik, Wortschatz, Aussprache und Schreiben – alles praxisnah geübt.' },
-  { icon: '🏅', title: 'Offizielles Zertifikat', desc: 'Nach Abschluss jedes Levels erhältst du ein Teilnahmezertifikat von uns als Sprachschule.' },
+  { icon: '/icons/Klemmbrett.svg', title: 'Klarer Lehrplan nach GER', desc: 'Jede Niveaustufe folgt dem Gemeinsamen Europäischen Referenzrahmen für Sprachen.' },
+  { icon: '/icons/Dialog.svg', title: 'Live-Unterricht', desc: 'Echter Unterricht mit einer Lehrkraft. Kein Selbststudium, keine im Voraus aufgezeichneten Videos.' },
+  { icon: '/icons/Schreiben.svg', title: 'Interaktive Übungen', desc: 'Grammatik, Wortschatz, Aussprache und Schreiben. Alles wird praxisnah geübt.' },
+  { icon: '/icons/Medaille.svg', title: 'Offizielles Zertifikat', desc: 'Nach Abschluss jedes Levels erhältst du ein Teilnahmezertifikat von uns als Sprachschule.' },
 ];
 
 export default function A2C2Page() {
