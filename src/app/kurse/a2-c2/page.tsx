@@ -127,7 +127,12 @@ export default function A2C2Page() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 stagger-children">
               {features?.map((f) => (
                 <div key={f?.title} className="reveal-up bg-white rounded-2xl p-6 border border-border shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 text-center">
-                  <div className="text-3xl mb-4">{f?.icon}</div>
+                  <div className="mb-4 flex justify-center">
+  <img
+    src={f?.icon}
+    alt={f?.title}
+    className="w-10 h-10 transition-transform hover:scale-110"
+  /></div>
                   <h3 className="text-sm font-bold text-foreground mb-2">{f?.title}</h3>
                   <p className="text-xs text-muted-foreground leading-relaxed">{f?.desc}</p>
                 </div>
