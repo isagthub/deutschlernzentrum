@@ -29,10 +29,10 @@ export const metadata: Metadata = {
 };
 
 const values = [
-  { icon: '🌍', title: 'Muttersprachlich', desc: 'Wir arbeiten ausschließlich mit Lehrkräften, die Deutsch auf muttersprachlichem Niveau beherrschen.' },
-  { icon: '🎓', title: 'Zertifiziert', desc: 'Alle Lehrkräfte sind als Sprachlehrkräfte zertifiziert.' },
-  { icon: '💻', title: '100% Online', desc: 'Unterrichte von überall, flexibel und ortsunabhängig.' },
-  { icon: '❤️', title: 'Mit Leidenschaft', desc: 'Wir suchen Menschen, die Spaß daran haben, unsere deutsche Sprache und Kultur zu vermitteln.' },
+  { icon: '/icons/Weltkugel.svg', title: 'Muttersprachlich', desc: 'Wir arbeiten ausschließlich mit Lehrkräften, die Deutsch auf muttersprachlichem Niveau beherrschen.' },
+  { icon: '/icons/Abschluss.svg', title: 'Zertifiziert', desc: 'Alle Lehrkräfte sind als Sprachlehrkräfte zertifiziert.' },
+  { icon: '/icons/Internet.svg', title: '100% Online', desc: 'Unterrichte von überall, flexibel und ortsunabhängig.' },
+  { icon: '/icons/Herz.svg', title: 'Mit Leidenschaft', desc: 'Wir suchen Menschen, die Spaß daran haben, unsere deutsche Sprache und Kultur zu vermitteln.' },
 ];
 
 export default function KarrierePage() {
@@ -88,7 +88,11 @@ export default function KarrierePage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 stagger-children">
               {values?.map((v) => (
                 <div key={v?.title} className="reveal-up bg-white rounded-2xl p-6 border border-border shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 text-center">
-                  <div className="text-4xl mb-4">{v?.icon}</div>
+                     <img
+      src={v.icon}
+      alt={v.title}
+      className="w-12 h-12 mx-auto mb-4"
+    />
                   <h3 className="text-base font-bold text-foreground mb-2">{v?.title}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">{v?.desc}</p>
                 </div>
