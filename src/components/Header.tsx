@@ -19,6 +19,7 @@ const navLinks = [
   { label: 'FAQ', href: '/faq', hasDropdown: false },
   { label: 'Karriere', href: '/karriere', hasDropdown: false },
   { label: 'Kontakt', href: '/kontakt', hasDropdown: false },
+  { label: 'Impressum', href: '/impressum', hasDropdown: false },
 ];
 
 export default function Header() {
