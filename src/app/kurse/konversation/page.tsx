@@ -31,12 +31,12 @@ export const metadata: Metadata = {
 };
 
 const topics = [
-  { emoji: '🏠', title: 'Wohnen & Alltag', desc: 'Wohnungssuche, Nachbarschaft, Einkaufen, Behördengänge.' },
-  { emoji: '💼', title: 'Arbeit & Karriere', desc: 'Bewerbungsgespräche, Büroalltag, Networking auf Deutsch.' },
-  { emoji: '🏥', title: 'Gesundheit & Bürokratie', desc: 'Arztbesuche, Versicherungen, Formulare verstehen.' },
-  { emoji: '🎭', title: 'Kultur & Gesellschaft', desc: 'Deutsche Mentalität, Feiertage, Umgangsformen.' },
-  { emoji: '🚆', title: 'Mobilität & Freizeit', desc: 'ÖPNV, Reisen, Sport und Freizeitgestaltung.' },
-  { emoji: '👨‍👩‍👧', title: 'Familie & Schule', desc: 'Kita, Schulsystem, Elterngespräche, Familienalltag.' },
+  { icon: '/icons/Haus.svg', title: 'Wohnen & Alltag', desc: 'Wohnungssuche, Nachbarschaft, Einkaufen, Behördengänge.' },
+  { icon: '/icons/Aktentasche.svg', title: 'Arbeit & Karriere', desc: 'Bewerbungsgespräche, Büroalltag, Networking auf Deutsch.' },
+  { icon: '/icons/Krankenhaus.svg', title: 'Gesundheit & Bürokratie', desc: 'Arztbesuche, Versicherungen, Formulare verstehen.' },
+  { icon: '/icons/Kultur.svg', title: 'Kultur & Gesellschaft', desc: 'Deutsche Mentalität, Feiertage, Umgangsformen.' },
+  { icon: '/icons/Zug.svg', title: 'Mobilität & Freizeit', desc: 'ÖPNV, Reisen, Sport und Freizeitgestaltung.' },
+  { icon: '/icons/Familie.svg', title: 'Familie & Schule', desc: 'Kita, Schulsystem, Elterngespräche, Familienalltag.' },
 ];
 
 const features = [
@@ -109,7 +109,12 @@ export default function KonversationPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children">
               {topics?.map((topic) => (
                 <div key={topic?.title} className="reveal-up bg-white rounded-2xl p-6 border border-border shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5">
-                  <div className="text-3xl mb-3">{topic?.emoji}</div>
+                  <div className="mb-3 flex justify-center">
+  <img
+    src={topic?.icon}
+    alt={topic?.title}
+    className="w-8 h-8 transition-transform hover:scale-110"
+  /></div>
                   <h3 className="text-base font-bold text-foreground mb-2">{topic?.title}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">{topic?.desc}</p>
                 </div>
