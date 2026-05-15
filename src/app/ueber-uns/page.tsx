@@ -108,7 +108,7 @@ export default function UeberUnsPage() {
                     Der Online-Unterricht erlaubt uns, wirklich individuell zu arbeiten und die Unterrichtszeiten flexibel an Berufs- und Lebensalltag anzupassen und gerade deshalb eine echte persönliche Verbindung aufzubauen.
                   </p>
                   <p>
-                    Das Deutschlernzentrum ist aus diesem Anspruch entstanden. Ich wollte einen digitalen Raum schaffen, in dem Schüler und Schülerinnen im Zentrum stehen und der Unterricht komplett an die Bedürfnisse angepasst wird. Einen Ort, an dem die Lehrkräfte wirklich qualifiziert sind und an dem das Deutschlernen als Schlüssel zum Leben in Deutschland gesehen wird.
+                    Das Deutschlernzentrum ist aus diesem Anspruch entstanden. Ich wollte einen digitalen Raum schaffen, in dem Schülerinnen und Schüler im Zentrum stehen und der Unterricht komplett an die Bedürfnisse angepasst wird. Einen Ort, an dem die Lehrkräfte wirklich qualifiziert sind und an dem das Deutschlernen als Schlüssel zum Leben in Deutschland gesehen wird.
                   </p>
                   <p>
                     Heute begleiten wir Menschen aus aller Welt auf ihrem Weg zur deutschen Sprache, in die deutsche Kultur und nach Deutschland. Und das tun wir mit sehr viel Herzblut.

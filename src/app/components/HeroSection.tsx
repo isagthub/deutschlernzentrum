@@ -120,7 +120,7 @@ export default function HeroSection() {
             <div className="reveal-up delay-700 flex flex-wrap gap-6 pt-4 border-t border-border">
               {[
               { value: 'A2–C2', label: 'GER-Niveaus' },
-              { value: '100%', label: 'Muttersprachler:innen' },
+              { value: '100%', label: 'Muttersprachlerinnen und Muttersprachler' },
               { value: 'Live', label: 'Unterricht online' }]?.
               map((stat) =>
               <div key={stat?.label} className="flex flex-col">

@@ -34,7 +34,7 @@ const faqCategories = [
     items: [
       {
         q: 'Wer unterrichtet bei euch?',
-        a: 'Alle unsere Lehrkräfte beherrschen Deutsch auf muttersprachlichem Niveau und sind als Sprachlehrer und Sprachlehrerinnen zertifiziert. Außerdem haben sie Erfahrung in der Jugend- und Erwachsenenlehre.',
+        a: 'Alle unsere Lehrkräfte beherrschen Deutsch auf muttersprachlichem Niveau und sind als Sprachlehrerinnen und Sprachlehrer zertifiziert. Außerdem haben sie Erfahrung in der Jugend- und Erwachsenenlehre.',
       },
       {
         q: 'Wie läuft der Unterricht ab?',

@@ -8,7 +8,7 @@ const differentiators = [
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>,
 
-  title: 'Nur Muttersprachler und Muttersprachlerinnen',
+  title: 'Nur Muttersprachlerinnen und Muttersprachler',
   desc: 'Alle Lehrkräfte sprechen Deutsch auf muttersprachlichem Niveau und sind als Sprachlehrkräfte zertifiziert.'
 },
 {
@@ -65,7 +65,7 @@ export default function DifferentiatorSection() {
             <div className="absolute -bottom-6 -right-4 md:right-8 bg-white rounded-2xl p-5 shadow-xl border border-border w-52">
               <div className="text-3xl font-extrabold text-accent mb-1">100%</div>
               <div className="text-sm font-semibold text-foreground">Zertifizierte Lehrkräfte</div>
-              <div className="text-xs text-muted-foreground mt-1">Nur Muttersprachler und Muttersprachlerinnen</div>
+              <div className="text-xs text-muted-foreground mt-1">Nur Muttersprachlinnen und Muttersprachler</div>
             </div>
           </div>
 
