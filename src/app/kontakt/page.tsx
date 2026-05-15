@@ -52,15 +52,25 @@ export default function ContactPage() {
             <div className="flex flex-col lg:flex-row lg:items-end gap-10 pb-16">
               {/* Left: headline */}
               <div className="flex-1 max-w-2xl reveal-up">
+                
                 <a
-                  href="/"
-                  className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition-colors text-sm font-medium mb-8 group"
-                >
-                  <svg className="group-hover:-translate-x-0.5 transition-transform" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M19 12H5M12 5l-7 7 7 7"/>
-                  </svg>
-                  Zurück zur Startseite
-                </a>
+      href="/"
+      className="inline-flex items-center gap-3 mb-8 px-6 py-3 bg-white text-primary font-bold rounded-full shadow-lg hover:scale-105 transition-transform"
+    >
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M19 12H5M12 19l-7-7 7-7" />
+      </svg>
+      Zurück zur Startseite
+    </a>    
 
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-accent/20 border border-accent/30 rounded-full mb-5">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
