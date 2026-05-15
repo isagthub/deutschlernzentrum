@@ -30,24 +30,24 @@ export const metadata: Metadata = {
 
 const standards = [
   {
-    icon: '🎓',
+    icon: '/icons/Abschluss.svg',
     title: 'Zertifizierte Qualität',
     desc: 'Alle Lehrkräfte sind vom Goethe-Institut oder einer gleichwertigen Institution zertifiziert. Kein Unterricht ohne nachgewiesene Qualifikation.',
   },
   {
-    icon: '🗣️',
+    icon: '/icons/Sprechen.svg',
     title: 'Echte Kommunikation',
     desc: 'Deutsch lernt man nicht durch Vokabellisten, sondern durch echte Gespräche. Unser Unterricht ist von Anfang an kommunikativ und alltagsnah.',
   },
   {
-    icon: '🎯',
+    icon: '/icons/Ziel.svg',
     title: 'Klare Lernziele',
     desc: 'Jede Unterrichtseinheit hat ein konkretes Ziel. Wir arbeiten strukturiert auf Prüfungen, Berufsalltag oder freie Konversation hin – je nach Bedarf.',
   },
   {
-    icon: '🤝',
+    icon: '/icons/Hände.svg',
     title: 'Persönliche Begleitung',
-    desc: 'Wir kennen unsere Lernenden beim Namen. Kein anonymer Massenunterricht – sondern echte Beziehungen, die das Lernen leichter machen.',
+    desc: 'Wir kennen unsere Lernenden beim Namen. Kein anonymer Massenunterricht, sondern echte Beziehungen, die das Lernen leichter machen.',
   },
 ];
 
@@ -148,7 +148,13 @@ export default function UeberUnsPage() {
                   key={s.title}
                   className="reveal-up bg-white rounded-2xl p-7 border border-border shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 flex gap-5 items-start"
                 >
-                  <div className="text-3xl flex-shrink-0 mt-0.5">{s.icon}</div>
+                  <div className="flex-shrink-0 mt-0.5">
+  <img
+    src={s.icon}
+    alt={s.title}
+    className="w-12 h-12 transition-transform hover:scale-110"
+  />
+</div>
                   <div>
                     <h3 className="text-base font-bold text-foreground mb-1.5">{s.title}</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
