@@ -35,20 +35,31 @@ export default function ImpressumPage() {
         <section className="pt-28 md:pt-36 pb-12 bg-primary relative overflow-hidden">
           <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-secondary/30 rounded-full blur-[100px] pointer-events-none" />
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+               <a
+      href="/"
+      className="inline-flex items-center gap-3 mb-8 px-6 py-3 bg-white text-primary font-bold rounded-full shadow-lg hover:scale-105 transition-transform"
+    >
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M19 12H5M12 19l-7-7 7-7" />
+      </svg>
+      Zurück zur Startseite
+    </a>       
+                    
                      <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">
               Impressum
             </h1>
             <p className="text-white/60 text-lg">Rechtliche Informationen zu Deutschlernzentrum</p>
           </div>
-            <a
-                  href="/"
-                  className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition-colors text-sm font-medium mb-8 group"
-                >
-                  <svg className="group-hover:-translate-x-0.5 transition-transform" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M19 12H5M12 5l-7 7 7 7"/>
-                  </svg>
-                  Zurück zur Startseite
-                </a>
+          
         </section>
 
         {/* Content */}

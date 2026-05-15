@@ -76,7 +76,7 @@ const faqCategories = [
     items: [
       {
         q: 'Erhalte ich ein Zertifikat?',
-        a: 'Ja. Nach Abschluss jedes GER-Levels erhältst du ein offizielles Teilnahmezertifikat von uns als Sprachschule.',
+        a: 'Ja. Nach Abschluss jedes GER-Levels erhältst du ein offizielles Teilnahmezertifikat von uns als Sprachschule. Darauf steht, wie viele Stunden du in einem Kurs deiner Niveaustufe warst.',
       },
       {
         q: 'Bereitet ihr auf offizielle Prüfungen vor?',

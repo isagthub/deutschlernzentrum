@@ -102,7 +102,7 @@ export default function UeberUnsPage() {
                 
                 <div className="space-y-5 text-foreground/80 leading-relaxed text-base">
                   <p>
-                    Das Deutschlernzentrum wurde mit einer klaren Vision gegründet: Deutschunterricht modern, persönlich und weltweit zugänglich zu machen. So können Menschen aus aller Welt flexibel und ohne geografische Einschränkungen mit uns Deutsch lernen. Ohne Pendelstress und ohne geografische Einschränkungen.
+                    Das Deutschlernzentrum wurde mit einer klaren Vision gegründet: Deutschunterricht modern, persönlich und weltweit zugänglich zu machen. So können Menschen aus aller Welt flexibel, ohne Pendelstress und ohne geografische Einschränkungen mit uns Deutsch lernen.
                   </p>
                   <p>
                     Der Online-Unterricht erlaubt uns, wirklich individuell zu arbeiten und die Unterrichtszeiten flexibel an Berufs- und Lebensalltag anzupassen und gerade deshalb eine echte persönliche Verbindung aufzubauen.

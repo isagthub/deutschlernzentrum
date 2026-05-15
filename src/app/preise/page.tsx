@@ -72,8 +72,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { q: 'Gibt es eine Mindestanzahl an Stunden?', a: 'Nein. Du buchst so viele Stunden, wie du brauchst – ohne Mindestanzahl oder Vertragsbindung.' },
-  { q: 'Was ist im Preis enthalten?', a: 'Alle Preise beinhaltenden online Unterricht mit einer zertifizierten Lehrkraft und das Teilnahmezertifikat nach Levelabschluss.' },
+  { q: 'Gibt es eine Mindestanzahl an Stunden?', a: 'Nein. Du buchst so viele Stunden, wie du brauchst. Bei uns gibt es keine Mindestanzahl oder Vertragsbindung.' },
+  { q: 'Was ist im Preis enthalten?', a: 'Alle Preise beinhalten den online Unterricht mit einer zertifizierten Lehrkraft und das Teilnahmezertifikat nach Levelabschluss.' },
   { q: 'Kann ich Kurse kombinieren?', a: 'Ja. Du kannst z. B. einen Sprachkurs mit einem Konversationskurs kombinieren. Sprich uns einfach an.' },
   { q: 'Wie bezahle ich?', a: 'Die Zahlungsmodalitäten besprechen wir individuell nach deiner Kursanfrage.' },
 ];
